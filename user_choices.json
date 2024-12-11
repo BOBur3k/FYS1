@@ -1,0 +1,380 @@
+{
+    "interactions": [
+        {
+            "session_id": "9850ffe0-2657-4637-a7ee-7415637accf1",
+            "name": "",
+            "timestamp": "2024-12-11 02:09:42",
+            "current_state": "ASK_NAME",
+            "major_selected": "",
+            "college_researched": ""
+        },
+        {
+            "session_id": "9850ffe0-2657-4637-a7ee-7415637accf1",
+            "name": "mamka",
+            "timestamp": "2024-12-11 02:09:45",
+            "current_state": "MAIN_MENU",
+            "major_selected": "",
+            "college_researched": ""
+        },
+        {
+            "session_id": "9850ffe0-2657-4637-a7ee-7415637accf1",
+            "name": "mamka",
+            "timestamp": "2024-12-11 02:09:48",
+            "current_state": "ASK_CAREER",
+            "major_selected": "",
+            "college_researched": ""
+        },
+        {
+            "session_id": "7113329e-0479-4f3c-bb6b-366f317cde11",
+            "name": "",
+            "timestamp": "2024-12-11 04:21:49",
+            "current_state": "ASK_NAME",
+            "major_selected": "",
+            "college_researched": ""
+        },
+        {
+            "session_id": "7113329e-0479-4f3c-bb6b-366f317cde11",
+            "name": "Bob",
+            "timestamp": "2024-12-11 04:21:54",
+            "current_state": "MAIN_MENU",
+            "major_selected": "",
+            "college_researched": ""
+        },
+        {
+            "session_id": "7113329e-0479-4f3c-bb6b-366f317cde11",
+            "name": "Bob",
+            "timestamp": "2024-12-11 04:21:57",
+            "current_state": "ASK_CAREER",
+            "major_selected": "",
+            "college_researched": ""
+        },
+        {
+            "session_id": "7113329e-0479-4f3c-bb6b-366f317cde11",
+            "name": "Bob",
+            "timestamp": "2024-12-11 04:22:04",
+            "current_state": "SHOW_MAJORS",
+            "major_selected": "Computer Science, Statistics, Mathematics, Data Science",
+            "college_researched": ""
+        },
+        {
+            "session_id": "6df14388-68f3-4d65-a714-00332146fad9",
+            "name": "",
+            "timestamp": "2024-12-11 04:27:41",
+            "current_state": "ASK_NAME",
+            "major_selected": "",
+            "college_researched": ""
+        },
+        {
+            "session_id": "6df14388-68f3-4d65-a714-00332146fad9",
+            "name": "Bob",
+            "timestamp": "2024-12-11 04:27:44",
+            "current_state": "MAIN_MENU",
+            "major_selected": "",
+            "college_researched": ""
+        },
+        {
+            "session_id": "6df14388-68f3-4d65-a714-00332146fad9",
+            "name": "Bob",
+            "timestamp": "2024-12-11 04:27:46",
+            "current_state": "ASK_CAREER",
+            "major_selected": "",
+            "college_researched": ""
+        },
+        {
+            "session_id": "6df14388-68f3-4d65-a714-00332146fad9",
+            "name": "Bob",
+            "timestamp": "2024-12-11 04:27:54",
+            "current_state": "SHOW_MAJORS",
+            "major_selected": "Political Science, Public Policy, International Relations, Government",
+            "college_researched": ""
+        },
+        {
+            "session_id": "f6aafff1-27ad-450a-b7d4-fae2ef9f4144",
+            "name": "",
+            "timestamp": "2024-12-11 04:32:13",
+            "current_state": "ASK_NAME",
+            "major_selected": "",
+            "college_researched": ""
+        },
+        {
+            "session_id": "f6aafff1-27ad-450a-b7d4-fae2ef9f4144",
+            "name": "jopka",
+            "timestamp": "2024-12-11 04:32:16",
+            "current_state": "MAIN_MENU",
+            "major_selected": "",
+            "college_researched": ""
+        },
+        {
+            "session_id": "f6aafff1-27ad-450a-b7d4-fae2ef9f4144",
+            "name": "jopka",
+            "timestamp": "2024-12-11 04:32:18",
+            "current_state": "ASK_CAREER",
+            "major_selected": "",
+            "college_researched": ""
+        },
+        {
+            "session_id": "f6aafff1-27ad-450a-b7d4-fae2ef9f4144",
+            "name": "jopka",
+            "timestamp": "2024-12-11 04:32:25",
+            "current_state": "SHOW_MAJORS",
+            "major_selected": "Political Science, Public Policy, International Relations, Communications",
+            "college_researched": ""
+        },
+        {
+            "session_id": "a0c70acb-2e6b-4f3f-9164-47e44618881b",
+            "name": "",
+            "timestamp": "2024-12-11 04:38:10",
+            "current_state": "ASK_NAME",
+            "major_selected": "",
+            "college_researched": ""
+        },
+        {
+            "session_id": "a0c70acb-2e6b-4f3f-9164-47e44618881b",
+            "name": "Bob",
+            "timestamp": "2024-12-11 04:38:23",
+            "current_state": "MAIN_MENU",
+            "major_selected": "",
+            "college_researched": ""
+        },
+        {
+            "session_id": "a0c70acb-2e6b-4f3f-9164-47e44618881b",
+            "name": "Bob",
+            "timestamp": "2024-12-11 04:38:26",
+            "current_state": "ASK_CAREER",
+            "major_selected": "",
+            "college_researched": ""
+        },
+        {
+            "session_id": "a0c70acb-2e6b-4f3f-9164-47e44618881b",
+            "name": "Bob",
+            "timestamp": "2024-12-11 04:38:31",
+            "current_state": "SHOW_MAJORS",
+            "major_selected": "Political Science, Public Policy, International Relations, Journalism",
+            "college_researched": ""
+        },
+        {
+            "session_id": "6389a39a-a128-4efc-ba47-ce88f43e6818",
+            "name": "",
+            "timestamp": "2024-12-11 04:40:53",
+            "current_state": "ASK_NAME",
+            "major_selected": "",
+            "college_researched": ""
+        },
+        {
+            "session_id": "6389a39a-a128-4efc-ba47-ce88f43e6818",
+            "name": "bok",
+            "timestamp": "2024-12-11 04:40:58",
+            "current_state": "MAIN_MENU",
+            "major_selected": "",
+            "college_researched": ""
+        },
+        {
+            "session_id": "6389a39a-a128-4efc-ba47-ce88f43e6818",
+            "name": "bok",
+            "timestamp": "2024-12-11 04:41:00",
+            "current_state": "ASK_CAREER",
+            "major_selected": "",
+            "college_researched": ""
+        },
+        {
+            "session_id": "6389a39a-a128-4efc-ba47-ce88f43e6818",
+            "name": "bok",
+            "timestamp": "2024-12-11 04:41:06",
+            "current_state": "SHOW_MAJORS",
+            "major_selected": "Political Science, Public Policy, International Relations, Communication",
+            "college_researched": ""
+        },
+        {
+            "session_id": "a1e745c3-4a59-49b0-ab08-431fc4935b3e",
+            "name": "",
+            "timestamp": "2024-12-11 04:41:50",
+            "current_state": "ASK_NAME",
+            "major_selected": "",
+            "college_researched": ""
+        },
+        {
+            "session_id": "a1e745c3-4a59-49b0-ab08-431fc4935b3e",
+            "name": "Bot",
+            "timestamp": "2024-12-11 04:41:53",
+            "current_state": "MAIN_MENU",
+            "major_selected": "",
+            "college_researched": ""
+        },
+        {
+            "session_id": "a1e745c3-4a59-49b0-ab08-431fc4935b3e",
+            "name": "Bot",
+            "timestamp": "2024-12-11 04:41:56",
+            "current_state": "ASK_CAREER",
+            "major_selected": "",
+            "college_researched": ""
+        },
+        {
+            "session_id": "a1e745c3-4a59-49b0-ab08-431fc4935b3e",
+            "name": "Bot",
+            "timestamp": "2024-12-11 04:42:00",
+            "current_state": "SHOW_MAJORS",
+            "major_selected": "Political Science, Public Policy, International Relations, Communications",
+            "college_researched": ""
+        },
+        {
+            "session_id": "cc7c7e9c-cda9-4ade-ab06-72416deea635",
+            "name": "",
+            "timestamp": "2024-12-11 04:50:38",
+            "current_state": "ASK_NAME",
+            "major_selected": "",
+            "college_researched": ""
+        },
+        {
+            "session_id": "cc7c7e9c-cda9-4ade-ab06-72416deea635",
+            "name": "Bob",
+            "timestamp": "2024-12-11 04:50:41",
+            "current_state": "MAIN_MENU",
+            "major_selected": "",
+            "college_researched": ""
+        },
+        {
+            "session_id": "cc7c7e9c-cda9-4ade-ab06-72416deea635",
+            "name": "Bob",
+            "timestamp": "2024-12-11 04:50:43",
+            "current_state": "ASK_CAREER",
+            "major_selected": "",
+            "college_researched": ""
+        },
+        {
+            "session_id": "cc7c7e9c-cda9-4ade-ab06-72416deea635",
+            "name": "Bob",
+            "timestamp": "2024-12-11 04:50:50",
+            "current_state": "SHOW_MAJORS",
+            "major_selected": "Political Science, Public Administration, International Relations, Public Policy",
+            "college_researched": ""
+        },
+        {
+            "session_id": "cc7c7e9c-cda9-4ade-ab06-72416deea635",
+            "name": "Bob",
+            "timestamp": "2024-12-11 04:50:57",
+            "current_state": "MAIN_MENU",
+            "major_selected": "Political Science",
+            "college_researched": ""
+        },
+        {
+            "session_id": "cc7c7e9c-cda9-4ade-ab06-72416deea635",
+            "name": "Bob",
+            "timestamp": "2024-12-11 04:51:03",
+            "current_state": "ASK_COLLEGE",
+            "major_selected": "",
+            "college_researched": ""
+        },
+        {
+            "session_id": "cc7c7e9c-cda9-4ade-ab06-72416deea635",
+            "name": "Bob",
+            "timestamp": "2024-12-11 04:51:07",
+            "current_state": "MAIN_MENU",
+            "major_selected": "",
+            "college_researched": "Guttman"
+        },
+        {
+            "session_id": "0e03bf40-0e6e-46a7-9ace-0f88af40ea95",
+            "name": "",
+            "timestamp": "2024-12-11 04:56:20",
+            "current_state": "ASK_NAME",
+            "major_selected": "",
+            "college_researched": ""
+        },
+        {
+            "session_id": "0e03bf40-0e6e-46a7-9ace-0f88af40ea95",
+            "name": "bob",
+            "timestamp": "2024-12-11 04:56:25",
+            "current_state": "MAIN_MENU",
+            "major_selected": "",
+            "college_researched": ""
+        },
+        {
+            "session_id": "0e03bf40-0e6e-46a7-9ace-0f88af40ea95",
+            "name": "bob",
+            "timestamp": "2024-12-11 04:56:27",
+            "current_state": "ASK_CAREER",
+            "major_selected": "",
+            "college_researched": ""
+        },
+        {
+            "session_id": "0e03bf40-0e6e-46a7-9ace-0f88af40ea95",
+            "name": "bob",
+            "timestamp": "2024-12-11 04:56:33",
+            "current_state": "SHOW_MAJORS",
+            "major_selected": "Political Science, Public Policy, International Relations, Government",
+            "college_researched": ""
+        },
+        {
+            "session_id": "0e03bf40-0e6e-46a7-9ace-0f88af40ea95",
+            "name": "bob",
+            "timestamp": "2024-12-11 04:56:38",
+            "current_state": "MAIN_MENU",
+            "major_selected": "Political Science",
+            "college_researched": ""
+        },
+        {
+            "session_id": "0e03bf40-0e6e-46a7-9ace-0f88af40ea95",
+            "name": "bob",
+            "timestamp": "2024-12-11 04:56:45",
+            "current_state": "MAIN_MENU",
+            "major_selected": "",
+            "college_researched": ""
+        },
+        {
+            "session_id": "eb1865d2-8821-4b04-a9a2-5ed5a41aeacf",
+            "name": "",
+            "timestamp": "2024-12-11 05:11:06",
+            "current_state": "ASK_NAME",
+            "major_selected": "",
+            "college_researched": ""
+        },
+        {
+            "session_id": "eb1865d2-8821-4b04-a9a2-5ed5a41aeacf",
+            "name": "bob",
+            "timestamp": "2024-12-11 05:11:09",
+            "current_state": "MAIN_MENU",
+            "major_selected": "",
+            "college_researched": ""
+        },
+        {
+            "session_id": "eb1865d2-8821-4b04-a9a2-5ed5a41aeacf",
+            "name": "bob",
+            "timestamp": "2024-12-11 05:11:11",
+            "current_state": "ASK_CAREER",
+            "major_selected": "",
+            "college_researched": ""
+        },
+        {
+            "session_id": "eb1865d2-8821-4b04-a9a2-5ed5a41aeacf",
+            "name": "bob",
+            "timestamp": "2024-12-11 05:11:18",
+            "current_state": "SHOW_MAJORS",
+            "major_selected": "Marketing, Advertising, Public Relations, Business Administration",
+            "college_researched": ""
+        },
+        {
+            "session_id": "eb1865d2-8821-4b04-a9a2-5ed5a41aeacf",
+            "name": "bob",
+            "timestamp": "2024-12-11 05:11:27",
+            "current_state": "MAIN_MENU",
+            "major_selected": "Advertising",
+            "college_researched": ""
+        },
+        {
+            "session_id": "eb1865d2-8821-4b04-a9a2-5ed5a41aeacf",
+            "name": "bob",
+            "timestamp": "2024-12-11 05:11:36",
+            "current_state": "ASK_COLLEGE",
+            "major_selected": "",
+            "college_researched": ""
+        },
+        {
+            "session_id": "eb1865d2-8821-4b04-a9a2-5ed5a41aeacf",
+            "name": "bob",
+            "timestamp": "2024-12-11 05:11:40",
+            "current_state": "MAIN_MENU",
+            "major_selected": "",
+            "college_researched": "Guttman"
+        }
+    ]
+}

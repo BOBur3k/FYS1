@@ -1,0 +1,13 @@
+{
+  "9850ffe0-2657-4637-a7ee-7415637accf1": [
+    {
+      "timestamp": "2024-12-11 00:55:30",
+      "name": "jon",
+      "current_state": "MAIN_MENU"
+    },
+    {
+      "timestamp": "2024-12-11 00:55:31",
+      "current_state": "ASK_CAREER"
+    }
+  ]
+}

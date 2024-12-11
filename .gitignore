@@ -1,3 +1,5 @@
-env/
+# Ignore .env files
+.env
 
-user_choices.csv
+# Ignore environment-specific files
+*.env.*

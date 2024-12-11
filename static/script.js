@@ -1,5 +1,3 @@
-// script.js
-
 const CONFIG = {
     API_URL: "http://localhost:5000",
     MAX_MESSAGE_LENGTH: 500,
@@ -7,20 +5,10 @@ const CONFIG = {
     MESSAGE_DELAY: 800
 };
 
-// Initialize sessionId from localStorage if it exists
-let sessionId = localStorage.getItem('sessionId') || null;
-
+// Initialize chat when page loads
 document.addEventListener('DOMContentLoaded', async () => {
     console.log("Page loaded, initializing chat...");
-
-    if (!sessionId) {
-        // Send INIT only if there's no existing sessionId
-        await sendMessage(CONFIG.INIT_MESSAGE, true);
-    } else {
-        // Optionally, you can send a welcome back message or fetch the current state
-        addMessageToChat("Clancy: Welcome back! How can I assist you today?", false);
-        showMainMenu(true);
-    }
+    await sendMessage(CONFIG.INIT_MESSAGE, true);
 });
 
 // Event Listeners
@@ -33,17 +21,23 @@ document.getElementById('user-input')?.addEventListener('keydown', (e) => {
     }
 });
 
-// Use event delegation for dynamically added buttons
-document.getElementById('interaction-area')?.addEventListener('click', async (e) => {
-    if (e.target && e.target.classList.contains('choice-btn')) {
-        const choice = e.target.getAttribute('data-choice');
-        if (choice) {
-            console.log("Choice clicked:", choice);
-            await sendMessage(choice);
-        }
-    }
-});
+// Initialize button listeners
+function initializeButtonListeners() {
+    document.querySelectorAll('.choice-btn').forEach(button => {
+        // Remove existing listeners to prevent duplicates
+        button.replaceWith(button.cloneNode(true));
+        const newButton = document.querySelector(`[data-choice="${button.getAttribute('data-choice')}"]`);
+        newButton.addEventListener('click', buttonClickHandler);
+    });
+}
 
+function buttonClickHandler(event) {
+    const choice = event.target.getAttribute('data-choice') || event.target.textContent;
+    console.log("Choice clicked:", choice);
+    sendMessage(choice);
+}
+
+// Message handling
 async function sendMessage(forcedMessage = null, isInit = false) {
     try {
         const userInput = document.getElementById('user-input');
@@ -52,58 +46,53 @@ async function sendMessage(forcedMessage = null, isInit = false) {
         if (!message) return;
 
         if (!isInit) {
-            addMessageToChat("You: " + message, true);
+            addUserMessage(message);
         }
+
+        // Show typing indicator
+        addTypingIndicator();
 
         if (!forcedMessage && userInput) {
             userInput.value = '';
         }
 
-        // Show loading indicator
-        showLoading(true);
-
         const response = await callAPI(message);
+        
+        // Remove typing indicator
+        removeTypingIndicator();
+
         if (response && response.response) {
             handleBotMessage(response.response);
-            // Update sessionId if provided
-            if (response.session_id) {
-                sessionId = response.session_id;
-                localStorage.setItem('sessionId', sessionId); // Store sessionId in localStorage
-                console.log("Session ID updated:", sessionId);
-            }
         }
-
-        // Hide loading indicator
-        showLoading(false);
     } catch (error) {
         console.error("Message sending failed:", error);
-        addMessageToChat("Bot: Sorry, I encountered an error. Please try again.", false);
-        showLoading(false);
+        removeTypingIndicator();
+        addErrorMessage("Sorry, I encountered an error. Please try again.");
     }
 }
 
 async function callAPI(message) {
     try {
-        const payload = {
-            message: message
-        };
-        if (sessionId) {
-            payload.session_id = sessionId;
-        }
-
         const response = await fetch(`${CONFIG.API_URL}/chat`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
             },
-            body: JSON.stringify(payload)
+            body: JSON.stringify({ 
+                message: message,
+                session_id: localStorage.getItem('session_id')
+            })
         });
 
         if (!response.ok) {
             throw new Error(`Server error: ${response.status}`);
         }
 
-        return await response.json();
+        const data = await response.json();
+        if (data.session_id) {
+            localStorage.setItem('session_id', data.session_id);
+        }
+        return data;
     } catch (error) {
         console.error("API call failed:", error);
         throw error;
@@ -111,47 +100,85 @@ async function callAPI(message) {
 }
 
 function handleBotMessage(text) {
+    // Remove any existing typing indicator
+    removeTypingIndicator();
+    
     if (text.includes("<section_break>")) {
         const messages = text.split("<section_break>");
         messages.forEach((msg, index) => {
             setTimeout(() => {
                 if (msg.trim()) {
-                    addProcessedMessage(msg.trim());
+                    addBotMessage(msg.trim());
                 }
             }, index * CONFIG.MESSAGE_DELAY);
         });
     } else {
-        addProcessedMessage(text);
+        addBotMessage(text);
     }
 }
 
-function addProcessedMessage(text) {
+// Message UI functions
+function addUserMessage(text) {
+    const messageElement = document.createElement('div');
+    messageElement.className = 'chat-message user';
+    messageElement.textContent = text;
+    appendMessage(messageElement);
+}
+
+function addBotMessage(text) {
+    const messageElement = document.createElement('div');
+    messageElement.className = 'chat-message bot';
+    
+    // Remove tags for display but keep them for processing
     const tags = extractTags(text);
     const cleanText = text.replace(/\[.*?\]/g, '').trim();
-
-    if (cleanText) {
-        addMessageToChat("Clancy: " + cleanText, false);
+    messageElement.innerHTML = cleanText;
+    
+    const messagesDiv = document.getElementById('messages');
+    if (messagesDiv) {
+        messagesDiv.appendChild(messageElement);
+        messagesDiv.scrollTop = messagesDiv.scrollHeight;
     }
 
     updateUIElements(tags);
 }
 
-function addMessageToChat(text, isUser = false) {
+function addErrorMessage(text) {
+    const messageElement = document.createElement('div');
+    messageElement.className = 'chat-message error';
+    messageElement.textContent = text;
+    appendMessage(messageElement);
+}
+
+function appendMessage(messageElement) {
     const messagesDiv = document.getElementById('messages');
     if (messagesDiv) {
-        const messageElement = document.createElement('div');
-        messageElement.className = `chat-message ${isUser ? 'user' : 'bot'}`;
-        
-        // Remove the "Clancy: " or "You: " prefix
-        const cleanText = text.replace(/^(Clancy: |You: )/, '');
-        // Sanitize the HTML content
-        messageElement.innerHTML = DOMPurify.sanitize(cleanText);
-        
         messagesDiv.appendChild(messageElement);
         messagesDiv.scrollTop = messagesDiv.scrollHeight;
     }
 }
 
+// Typing indicator functions
+function addTypingIndicator() {
+    removeTypingIndicator(); // Remove any existing indicator
+    const messagesDiv = document.getElementById('messages');
+    if (messagesDiv) {
+        const typingElement = document.createElement('div');
+        typingElement.className = 'chat-message bot typing-indicator';
+        typingElement.textContent = 'Clancy is typing...';
+        messagesDiv.appendChild(typingElement);
+        messagesDiv.scrollTop = messagesDiv.scrollHeight;
+    }
+}
+
+function removeTypingIndicator() {
+    const typingMessage = document.querySelector('.typing-indicator');
+    if (typingMessage) {
+        typingMessage.remove();
+    }
+}
+
+// UI helper functions
 function extractTags(text) {
     const tags = [];
     const tagRegex = /\[(.*?)\]/g;
@@ -188,9 +215,9 @@ function extractMajorsFromLastMessage() {
 
     const lastMessage = messages[messages.length - 1];
     const majors = [];
-    const regex = /\d+\.\s*([^:\n]+)/g;
-    let match;
+    const regex = /\d+\.\s*([^\n]+)/g;
 
+    let match;
     while ((match = regex.exec(lastMessage.textContent)) !== null) {
         majors.push(match[1].trim());
     }
@@ -202,6 +229,9 @@ function showMainMenu(show) {
     const menu = document.getElementById('main-menu-buttons');
     if (menu) {
         menu.style.display = show ? 'block' : 'none';
+        if (show) {
+            initializeButtonListeners();
+        }
     }
 }
 
@@ -209,21 +239,22 @@ function showMajors(show, majors = []) {
     const majorsDiv = document.getElementById('majors-buttons');
     if (!majorsDiv) return;
 
-    majorsDiv.innerHTML = '';
+    majorsDiv.innerHTML = ''; // Clear existing content
     majorsDiv.style.display = show ? 'block' : 'none';
 
     if (show && majors.length > 0) {
         const buttonGroup = document.createElement('div');
         buttonGroup.className = 'button-group many-options';
-        
-        majors.forEach(major => {
+
+        majors.forEach((major, index) => {
             const button = document.createElement('button');
             button.className = 'choice-btn';
-            button.setAttribute('data-choice', major);
-            button.textContent = major;
+            button.setAttribute('data-major', major);
+            button.textContent = `${index + 1}. ${major}`;
+            button.onclick = () => sendMessage(major);
             buttonGroup.appendChild(button);
         });
-        
+
         majorsDiv.appendChild(buttonGroup);
     }
 }
@@ -236,12 +267,8 @@ function showInputField(show, placeholder = '') {
         input.value = '';
         input.placeholder = placeholder;
         container.style.display = show ? 'flex' : 'none';
-    }
-}
-
-function showLoading(show) {
-    const loadingDiv = document.getElementById('loading');
-    if (loadingDiv) {
-        loadingDiv.style.display = show ? 'block' : 'none';
+        if (show) {
+            input.focus();
+        }
     }
 }

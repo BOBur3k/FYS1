@@ -70,7 +70,7 @@ header p {
 
 .chat-message {
     white-space: pre-wrap;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, monospace;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
     line-height: 1.6;
     padding: 1.25rem;
     border-radius: 1rem;
@@ -92,13 +92,53 @@ header p {
     border: 1px solid var(--border-color);
 }
 
-.section-header {
+.chat-message.error {
+    align-self: center;
+    background-color: #fee2e2;
+    color: #dc2626;
+}
+
+.typing-indicator {
+    color: #666;
+    font-style: italic;
+    padding: 0.5rem 1rem;
+    margin-bottom: 0.5rem;
+    animation: fadeIn 0.3s ease-in;
+}
+
+/* HTML content styling */
+.chat-message h2 {
     color: var(--primary-color);
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: 600;
     margin: 1rem 0 0.75rem;
     padding-bottom: 0.5rem;
-    border-bottom: 2px solid var(--border-color);
+    border-bottom: 1px solid var(--border-color);
+}
+
+.chat-message h2:first-child {
+    margin-top: 0;
+}
+
+.chat-message ul {
+    margin: 0.5rem 0 1rem 1.25rem;
+    list-style-type: none;
+}
+
+.chat-message li {
+    margin: 0.5rem 0;
+    position: relative;
+}
+
+.chat-message li:before {
+    content: "•";
+    color: var(--primary-color);
+    position: absolute;
+    left: -1rem;
+}
+
+.chat-message strong {
+    color: var(--primary-dark);
 }
 
 #interaction-area {
@@ -110,19 +150,21 @@ header p {
 .button-group {
     display: flex;
     flex-direction: column;
-    gap: 2.5rem;  /* Increased gap for better spacing */
-    padding: 2rem;
+    gap: 2rem;  /* Increased gap between buttons */
+    padding: 1.5rem;
     width: 100%;
     max-width: 600px;
     margin: 0 auto;
 }
 
 .button-group.many-options {
-    gap: 3rem;  /* Even more space for 4+ options */
+    gap: 2.5rem;  /* Even more space for 4+ options */
 }
 
 .choice-btn {
+    width: 100%;
     padding: 1rem 1.5rem;
+    margin: 0.5rem 0;
     background-color: var(--primary-color);
     color: white;
     border: none;
@@ -132,8 +174,6 @@ header p {
     font-size: 1rem;
     font-weight: 500;
     text-align: left;
-    width: 100%;
-    box-shadow: var(--shadow-sm);
 }
 
 .choice-btn:hover {
@@ -165,12 +205,6 @@ header p {
     box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.1);
 }
 
-#loading {
-    font-style: italic;
-    color: #666;
-    margin-bottom: 10px;
-}
-
 #send-btn {
     padding: 0.875rem 1.5rem;
     background-color: var(--primary-color);
@@ -197,16 +231,24 @@ footer {
     font-size: 0.875rem;
 }
 
-#loading p {
-    animation: blink 1s infinite;
+/* Animations */
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
-@keyframes blink {
-    0% { opacity: 1; }
-    50% { opacity: 0.5; }
-    100% { opacity: 1; }
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
 }
 
+/* Responsive Design */
 @media (max-width: 768px) {
     .chat-wrapper {
         height: 100vh;
@@ -215,7 +257,7 @@ footer {
 
     .button-group {
         padding: 1.5rem 1rem;
-        gap: 2rem;  /* Slightly reduced gap for mobile */
+        gap: 2rem;
     }
 
     .chat-message {
@@ -225,5 +267,13 @@ footer {
 
     #input-container {
         padding: 0.75rem;
+    }
+
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    .chat-message h2 {
+        font-size: 1rem;
     }
 }

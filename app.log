@@ -227,3 +227,1084 @@
 2024-12-10 22:36:34,172 - INFO -  * Restarting with watchdog (windowsapi)
 2024-12-10 22:36:35,365 - WARNING -  * Debugger is active!
 2024-12-10 22:36:35,371 - INFO -  * Debugger PIN: 881-337-769
+2024-12-10 23:35:49,480 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-10 23:35:49,480 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-10 23:35:49,492 - INFO -  * Restarting with watchdog (windowsapi)
+2024-12-10 23:35:50,392 - WARNING -  * Debugger is active!
+2024-12-10 23:35:50,396 - INFO -  * Debugger PIN: 881-337-769
+2024-12-10 23:35:56,010 - INFO - 127.0.0.1 - - [10/Dec/2024 23:35:56] "GET / HTTP/1.1" 200 -
+2024-12-10 23:35:56,311 - INFO - 127.0.0.1 - - [10/Dec/2024 23:35:56] "GET /static/styles.css HTTP/1.1" 200 -
+2024-12-10 23:35:56,380 - INFO - 127.0.0.1 - - [10/Dec/2024 23:35:56] "GET /static/script.js HTTP/1.1" 200 -
+2024-12-10 23:35:56,474 - INFO - Received message: 'INIT' with session_id: 'None'
+2024-12-10 23:35:56,474 - INFO - Generated new session_id: 2c4604e3-4617-4254-803c-be966d6bf20e
+2024-12-10 23:35:56,475 - INFO - Added interaction: session_id=2c4604e3-4617-4254-803c-be966d6bf20e, name=None, current_state=ASK_NAME, major_selected=None, college_researched=None
+2024-12-10 23:35:56,476 - INFO - 127.0.0.1 - - [10/Dec/2024 23:35:56] "POST /chat HTTP/1.1" 200 -
+2024-12-10 23:40:10,293 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-10 23:40:10,294 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-10 23:40:10,304 - INFO -  * Restarting with watchdog (windowsapi)
+2024-12-10 23:40:11,208 - WARNING -  * Debugger is active!
+2024-12-10 23:40:11,211 - INFO -  * Debugger PIN: 881-337-769
+2024-12-10 23:40:21,444 - INFO - 127.0.0.1 - - [10/Dec/2024 23:40:21] "GET / HTTP/1.1" 200 -
+2024-12-10 23:40:21,755 - INFO - 127.0.0.1 - - [10/Dec/2024 23:40:21] "GET /static/styles.css HTTP/1.1" 200 -
+2024-12-10 23:40:21,812 - INFO - 127.0.0.1 - - [10/Dec/2024 23:40:21] "GET /static/script.js HTTP/1.1" 200 -
+2024-12-10 23:40:21,880 - INFO - Received message: 'INIT' with session_id: 'None'
+2024-12-10 23:40:21,881 - INFO - Generated new session_id: 9850ffe0-2657-4637-a7ee-7415637accf1
+2024-12-10 23:40:21,883 - INFO - Added interaction: session_id=9850ffe0-2657-4637-a7ee-7415637accf1, name=None, current_state=ASK_NAME, major_selected=None, college_researched=None
+2024-12-10 23:40:21,884 - INFO - 127.0.0.1 - - [10/Dec/2024 23:40:21] "POST /chat HTTP/1.1" 200 -
+2024-12-10 23:40:30,902 - INFO - Received message: 'Non' with session_id: '9850ffe0-2657-4637-a7ee-7415637accf1'
+2024-12-10 23:40:30,902 - INFO - Using existing session_id: 9850ffe0-2657-4637-a7ee-7415637accf1
+2024-12-10 23:40:30,926 - INFO - Added interaction: session_id=9850ffe0-2657-4637-a7ee-7415637accf1, name=Non, current_state=MAIN_MENU, major_selected=None, college_researched=None
+2024-12-10 23:40:30,926 - INFO - 127.0.0.1 - - [10/Dec/2024 23:40:30] "POST /chat HTTP/1.1" 200 -
+2024-12-10 23:40:33,880 - INFO - Received message: 'Explore Careers and Majors' with session_id: '9850ffe0-2657-4637-a7ee-7415637accf1'
+2024-12-10 23:40:33,880 - INFO - Using existing session_id: 9850ffe0-2657-4637-a7ee-7415637accf1
+2024-12-10 23:40:33,882 - INFO - Added interaction: session_id=9850ffe0-2657-4637-a7ee-7415637accf1, name=Explore Careers and Majors, current_state=MAIN_MENU, major_selected=None, college_researched=None
+2024-12-10 23:40:33,883 - INFO - 127.0.0.1 - - [10/Dec/2024 23:40:33] "POST /chat HTTP/1.1" 200 -
+2024-12-10 23:40:36,177 - INFO - Received message: 'Explore Careers and Majors' with session_id: '9850ffe0-2657-4637-a7ee-7415637accf1'
+2024-12-10 23:40:36,181 - INFO - Using existing session_id: 9850ffe0-2657-4637-a7ee-7415637accf1
+2024-12-10 23:40:36,186 - INFO - Added interaction: session_id=9850ffe0-2657-4637-a7ee-7415637accf1, name=Explore Careers and Majors, current_state=MAIN_MENU, major_selected=None, college_researched=None
+2024-12-10 23:40:36,186 - INFO - 127.0.0.1 - - [10/Dec/2024 23:40:36] "POST /chat HTTP/1.1" 200 -
+2024-12-10 23:48:06,961 - INFO -  * Detected change in 'C:\\WEB\\FYS1\\app.py', reloading
+2024-12-10 23:48:06,962 - INFO -  * Detected change in 'C:\\WEB\\FYS1\\app.py', reloading
+2024-12-10 23:48:06,963 - INFO -  * Detected change in 'C:\\WEB\\FYS1\\app.py', reloading
+2024-12-10 23:48:08,088 - INFO -  * Restarting with watchdog (windowsapi)
+2024-12-10 23:48:09,093 - WARNING -  * Debugger is active!
+2024-12-10 23:48:09,096 - INFO -  * Debugger PIN: 881-337-769
+2024-12-10 23:48:25,963 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-10 23:48:25,963 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-10 23:48:25,970 - INFO -  * Restarting with watchdog (windowsapi)
+2024-12-10 23:48:26,866 - WARNING -  * Debugger is active!
+2024-12-10 23:48:26,869 - INFO -  * Debugger PIN: 881-337-769
+2024-12-10 23:48:30,021 - INFO - 127.0.0.1 - - [10/Dec/2024 23:48:30] "GET / HTTP/1.1" 200 -
+2024-12-10 23:48:30,321 - INFO - 127.0.0.1 - - [10/Dec/2024 23:48:30] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-10 23:48:30,436 - INFO - 127.0.0.1 - - [10/Dec/2024 23:48:30] "GET /static/script.js HTTP/1.1" 200 -
+2024-12-10 23:48:30,644 - INFO - Received message: 'INIT' with session_id: '9850ffe0-2657-4637-a7ee-7415637accf1'
+2024-12-10 23:48:30,644 - INFO - Using existing session_id: 9850ffe0-2657-4637-a7ee-7415637accf1
+2024-12-10 23:48:30,645 - INFO - 127.0.0.1 - - [10/Dec/2024 23:48:30] "POST /chat HTTP/1.1" 200 -
+2024-12-10 23:48:34,052 - INFO - Received message: 'bob' with session_id: '9850ffe0-2657-4637-a7ee-7415637accf1'
+2024-12-10 23:48:34,052 - INFO - Using existing session_id: 9850ffe0-2657-4637-a7ee-7415637accf1
+2024-12-10 23:48:34,068 - INFO - Added interaction: session_id=9850ffe0-2657-4637-a7ee-7415637accf1, name=bob, state=MAIN_MENU
+2024-12-10 23:48:34,069 - INFO - 127.0.0.1 - - [10/Dec/2024 23:48:34] "POST /chat HTTP/1.1" 200 -
+2024-12-10 23:48:35,668 - INFO - Received message: 'Explore Careers and Majors' with session_id: '9850ffe0-2657-4637-a7ee-7415637accf1'
+2024-12-10 23:48:35,669 - INFO - Using existing session_id: 9850ffe0-2657-4637-a7ee-7415637accf1
+2024-12-10 23:48:35,671 - INFO - Added interaction: session_id=9850ffe0-2657-4637-a7ee-7415637accf1, name=Explore Careers and Majors, state=MAIN_MENU
+2024-12-10 23:48:35,673 - INFO - 127.0.0.1 - - [10/Dec/2024 23:48:35] "POST /chat HTTP/1.1" 200 -
+2024-12-10 23:48:38,019 - INFO - Received message: 'Explore Careers and Majors' with session_id: '9850ffe0-2657-4637-a7ee-7415637accf1'
+2024-12-10 23:48:38,019 - INFO - Using existing session_id: 9850ffe0-2657-4637-a7ee-7415637accf1
+2024-12-10 23:48:38,019 - INFO - Added interaction: session_id=9850ffe0-2657-4637-a7ee-7415637accf1, name=Explore Careers and Majors, state=MAIN_MENU
+2024-12-10 23:48:38,019 - INFO - 127.0.0.1 - - [10/Dec/2024 23:48:38] "POST /chat HTTP/1.1" 200 -
+2024-12-10 23:48:39,259 - INFO - Received message: 'Research Colleges' with session_id: '9850ffe0-2657-4637-a7ee-7415637accf1'
+2024-12-10 23:48:39,259 - INFO - Using existing session_id: 9850ffe0-2657-4637-a7ee-7415637accf1
+2024-12-10 23:48:39,259 - INFO - Added interaction: session_id=9850ffe0-2657-4637-a7ee-7415637accf1, name=Research Colleges, state=MAIN_MENU
+2024-12-10 23:48:39,259 - INFO - 127.0.0.1 - - [10/Dec/2024 23:48:39] "POST /chat HTTP/1.1" 200 -
+2024-12-10 23:48:41,156 - INFO - Received message: 'Get Application Advice' with session_id: '9850ffe0-2657-4637-a7ee-7415637accf1'
+2024-12-10 23:48:41,156 - INFO - Using existing session_id: 9850ffe0-2657-4637-a7ee-7415637accf1
+2024-12-10 23:48:41,156 - INFO - Added interaction: session_id=9850ffe0-2657-4637-a7ee-7415637accf1, name=Get Application Advice, state=MAIN_MENU
+2024-12-10 23:48:41,156 - INFO - 127.0.0.1 - - [10/Dec/2024 23:48:41] "POST /chat HTTP/1.1" 200 -
+2024-12-10 23:54:46,760 - INFO -  * Detected change in 'C:\\WEB\\FYS1\\app.py', reloading
+2024-12-10 23:54:46,761 - INFO -  * Detected change in 'C:\\WEB\\FYS1\\app.py', reloading
+2024-12-10 23:54:46,762 - INFO -  * Detected change in 'C:\\WEB\\FYS1\\app.py', reloading
+2024-12-10 23:54:47,949 - INFO -  * Restarting with watchdog (windowsapi)
+2024-12-10 23:54:48,958 - WARNING -  * Debugger is active!
+2024-12-10 23:54:48,961 - INFO -  * Debugger PIN: 881-337-769
+2024-12-10 23:54:53,596 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-10 23:54:53,596 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-10 23:54:53,602 - INFO -  * Restarting with watchdog (windowsapi)
+2024-12-10 23:54:54,600 - WARNING -  * Debugger is active!
+2024-12-10 23:54:54,604 - INFO -  * Debugger PIN: 881-337-769
+2024-12-10 23:54:56,284 - INFO - 127.0.0.1 - - [10/Dec/2024 23:54:56] "GET / HTTP/1.1" 200 -
+2024-12-10 23:54:56,571 - INFO - 127.0.0.1 - - [10/Dec/2024 23:54:56] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-10 23:54:56,644 - INFO - 127.0.0.1 - - [10/Dec/2024 23:54:56] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-12-10 23:54:56,659 - INFO - Received message: 'INIT' with session_id: '9850ffe0-2657-4637-a7ee-7415637accf1'
+2024-12-10 23:54:56,660 - INFO - Using existing session_id: 9850ffe0-2657-4637-a7ee-7415637accf1
+2024-12-10 23:54:56,661 - INFO - 127.0.0.1 - - [10/Dec/2024 23:54:56] "POST /chat HTTP/1.1" 200 -
+2024-12-10 23:55:01,043 - INFO - Received message: 'Joe' with session_id: '9850ffe0-2657-4637-a7ee-7415637accf1'
+2024-12-10 23:55:01,043 - INFO - Using existing session_id: 9850ffe0-2657-4637-a7ee-7415637accf1
+2024-12-10 23:55:01,058 - INFO - Added interaction: session_id=9850ffe0-2657-4637-a7ee-7415637accf1, name=Joe, state=MAIN_MENU
+2024-12-10 23:55:01,059 - INFO - 127.0.0.1 - - [10/Dec/2024 23:55:01] "POST /chat HTTP/1.1" 200 -
+2024-12-10 23:55:04,194 - INFO - Received message: 'Explore Careers and Majors' with session_id: '9850ffe0-2657-4637-a7ee-7415637accf1'
+2024-12-10 23:55:04,195 - INFO - Using existing session_id: 9850ffe0-2657-4637-a7ee-7415637accf1
+2024-12-10 23:55:04,196 - INFO - Added interaction: session_id=9850ffe0-2657-4637-a7ee-7415637accf1, name=Explore Careers and Majors, state=MAIN_MENU
+2024-12-10 23:55:04,196 - INFO - 127.0.0.1 - - [10/Dec/2024 23:55:04] "POST /chat HTTP/1.1" 200 -
+2024-12-10 23:55:06,486 - INFO - Received message: 'Research Colleges' with session_id: '9850ffe0-2657-4637-a7ee-7415637accf1'
+2024-12-10 23:55:06,486 - INFO - Using existing session_id: 9850ffe0-2657-4637-a7ee-7415637accf1
+2024-12-10 23:55:06,486 - INFO - Added interaction: session_id=9850ffe0-2657-4637-a7ee-7415637accf1, name=Research Colleges, state=MAIN_MENU
+2024-12-10 23:55:06,486 - INFO - 127.0.0.1 - - [10/Dec/2024 23:55:06] "POST /chat HTTP/1.1" 200 -
+2024-12-10 23:55:07,951 - INFO - Received message: 'Get Application Advice' with session_id: '9850ffe0-2657-4637-a7ee-7415637accf1'
+2024-12-10 23:55:07,952 - INFO - Using existing session_id: 9850ffe0-2657-4637-a7ee-7415637accf1
+2024-12-10 23:55:07,954 - INFO - Added interaction: session_id=9850ffe0-2657-4637-a7ee-7415637accf1, name=Get Application Advice, state=MAIN_MENU
+2024-12-10 23:55:07,955 - INFO - 127.0.0.1 - - [10/Dec/2024 23:55:07] "POST /chat HTTP/1.1" 200 -
+2024-12-10 23:57:22,215 - INFO -  * Detected change in 'C:\\WEB\\FYS1\\app.py', reloading
+2024-12-10 23:57:22,216 - INFO -  * Detected change in 'C:\\WEB\\FYS1\\app.py', reloading
+2024-12-10 23:57:22,216 - INFO -  * Detected change in 'C:\\WEB\\FYS1\\app.py', reloading
+2024-12-10 23:57:22,216 - INFO -  * Detected change in 'C:\\WEB\\FYS1\\app.py', reloading
+2024-12-10 23:57:23,321 - INFO -  * Restarting with watchdog (windowsapi)
+2024-12-10 23:57:24,265 - WARNING -  * Debugger is active!
+2024-12-10 23:57:24,267 - INFO -  * Debugger PIN: 881-337-769
+2024-12-11 00:01:47,200 - INFO -  * Detected change in 'C:\\WEB\\FYS1\\app.py', reloading
+2024-12-11 00:01:48,308 - INFO -  * Restarting with watchdog (windowsapi)
+2024-12-11 00:01:49,445 - WARNING -  * Debugger is active!
+2024-12-11 00:01:49,448 - INFO -  * Debugger PIN: 881-337-769
+2024-12-11 00:01:54,408 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-11 00:01:54,409 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-11 00:01:54,417 - INFO -  * Restarting with watchdog (windowsapi)
+2024-12-11 00:01:55,343 - WARNING -  * Debugger is active!
+2024-12-11 00:01:55,345 - INFO -  * Debugger PIN: 881-337-769
+2024-12-11 00:01:58,065 - INFO - 127.0.0.1 - - [11/Dec/2024 00:01:58] "GET / HTTP/1.1" 200 -
+2024-12-11 00:01:58,343 - INFO - 127.0.0.1 - - [11/Dec/2024 00:01:58] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-11 00:01:58,419 - INFO - 127.0.0.1 - - [11/Dec/2024 00:01:58] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-12-11 00:01:58,436 - INFO - Received message: 'INIT' with session_id: '9850ffe0-2657-4637-a7ee-7415637accf1'
+2024-12-11 00:01:58,436 - INFO - Using existing session_id: 9850ffe0-2657-4637-a7ee-7415637accf1
+2024-12-11 00:01:58,437 - INFO - 127.0.0.1 - - [11/Dec/2024 00:01:58] "POST /chat HTTP/1.1" 200 -
+2024-12-11 00:02:02,638 - INFO - Received message: 'Tom' with session_id: '9850ffe0-2657-4637-a7ee-7415637accf1'
+2024-12-11 00:02:02,638 - INFO - Using existing session_id: 9850ffe0-2657-4637-a7ee-7415637accf1
+2024-12-11 00:02:02,638 - INFO - Added interaction: session_id=9850ffe0-2657-4637-a7ee-7415637accf1, name=Tom, state=MAIN_MENU
+2024-12-11 00:02:02,638 - INFO - 127.0.0.1 - - [11/Dec/2024 00:02:02] "POST /chat HTTP/1.1" 200 -
+2024-12-11 00:02:04,526 - INFO - Received message: 'Explore Careers and Majors' with session_id: '9850ffe0-2657-4637-a7ee-7415637accf1'
+2024-12-11 00:02:04,527 - INFO - Using existing session_id: 9850ffe0-2657-4637-a7ee-7415637accf1
+2024-12-11 00:02:04,529 - INFO - Added interaction: session_id=9850ffe0-2657-4637-a7ee-7415637accf1, name=Explore Careers and Majors, state=MAIN_MENU
+2024-12-11 00:02:04,530 - INFO - 127.0.0.1 - - [11/Dec/2024 00:02:04] "POST /chat HTTP/1.1" 200 -
+2024-12-11 00:02:07,349 - INFO - Received message: 'Research Colleges' with session_id: '9850ffe0-2657-4637-a7ee-7415637accf1'
+2024-12-11 00:02:07,349 - INFO - Using existing session_id: 9850ffe0-2657-4637-a7ee-7415637accf1
+2024-12-11 00:02:07,353 - INFO - Added interaction: session_id=9850ffe0-2657-4637-a7ee-7415637accf1, name=Research Colleges, state=MAIN_MENU
+2024-12-11 00:02:07,353 - INFO - 127.0.0.1 - - [11/Dec/2024 00:02:07] "POST /chat HTTP/1.1" 200 -
+2024-12-11 00:02:08,781 - INFO - Received message: 'Get Application Advice' with session_id: '9850ffe0-2657-4637-a7ee-7415637accf1'
+2024-12-11 00:02:08,781 - INFO - Using existing session_id: 9850ffe0-2657-4637-a7ee-7415637accf1
+2024-12-11 00:02:08,784 - INFO - Added interaction: session_id=9850ffe0-2657-4637-a7ee-7415637accf1, name=Get Application Advice, state=MAIN_MENU
+2024-12-11 00:02:08,785 - INFO - 127.0.0.1 - - [11/Dec/2024 00:02:08] "POST /chat HTTP/1.1" 200 -
+2024-12-11 00:02:23,144 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-11 00:02:23,144 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-11 00:02:23,150 - INFO -  * Restarting with watchdog (windowsapi)
+2024-12-11 00:02:24,034 - WARNING -  * Debugger is active!
+2024-12-11 00:02:24,037 - INFO -  * Debugger PIN: 881-337-769
+2024-12-11 00:02:24,053 - INFO - 127.0.0.1 - - [11/Dec/2024 00:02:24] "GET / HTTP/1.1" 200 -
+2024-12-11 00:02:24,104 - INFO - 127.0.0.1 - - [11/Dec/2024 00:02:24] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-11 00:02:24,397 - INFO - 127.0.0.1 - - [11/Dec/2024 00:02:24] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-12-11 00:02:24,820 - INFO - Received message: 'INIT' with session_id: '9850ffe0-2657-4637-a7ee-7415637accf1'
+2024-12-11 00:02:24,821 - INFO - Using existing session_id: 9850ffe0-2657-4637-a7ee-7415637accf1
+2024-12-11 00:02:24,822 - INFO - 127.0.0.1 - - [11/Dec/2024 00:02:24] "POST /chat HTTP/1.1" 200 -
+2024-12-11 00:02:29,158 - INFO - Received message: 'lox' with session_id: '9850ffe0-2657-4637-a7ee-7415637accf1'
+2024-12-11 00:02:29,158 - INFO - Using existing session_id: 9850ffe0-2657-4637-a7ee-7415637accf1
+2024-12-11 00:02:29,158 - INFO - Added interaction: session_id=9850ffe0-2657-4637-a7ee-7415637accf1, name=lox, state=MAIN_MENU
+2024-12-11 00:02:29,161 - INFO - 127.0.0.1 - - [11/Dec/2024 00:02:29] "POST /chat HTTP/1.1" 200 -
+2024-12-11 00:02:31,552 - INFO - Received message: 'Explore Careers and Majors' with session_id: '9850ffe0-2657-4637-a7ee-7415637accf1'
+2024-12-11 00:02:31,552 - INFO - Using existing session_id: 9850ffe0-2657-4637-a7ee-7415637accf1
+2024-12-11 00:02:31,552 - INFO - Added interaction: session_id=9850ffe0-2657-4637-a7ee-7415637accf1, name=Explore Careers and Majors, state=MAIN_MENU
+2024-12-11 00:02:31,559 - INFO - 127.0.0.1 - - [11/Dec/2024 00:02:31] "POST /chat HTTP/1.1" 200 -
+2024-12-11 00:02:32,791 - INFO - Received message: 'Research Colleges' with session_id: '9850ffe0-2657-4637-a7ee-7415637accf1'
+2024-12-11 00:02:32,792 - INFO - Using existing session_id: 9850ffe0-2657-4637-a7ee-7415637accf1
+2024-12-11 00:02:32,793 - INFO - Added interaction: session_id=9850ffe0-2657-4637-a7ee-7415637accf1, name=Research Colleges, state=MAIN_MENU
+2024-12-11 00:02:32,794 - INFO - 127.0.0.1 - - [11/Dec/2024 00:02:32] "POST /chat HTTP/1.1" 200 -
+2024-12-11 00:02:34,429 - INFO - Received message: 'Get Application Advice' with session_id: '9850ffe0-2657-4637-a7ee-7415637accf1'
+2024-12-11 00:02:34,429 - INFO - Using existing session_id: 9850ffe0-2657-4637-a7ee-7415637accf1
+2024-12-11 00:02:34,429 - INFO - Added interaction: session_id=9850ffe0-2657-4637-a7ee-7415637accf1, name=Get Application Advice, state=MAIN_MENU
+2024-12-11 00:02:34,429 - INFO - 127.0.0.1 - - [11/Dec/2024 00:02:34] "POST /chat HTTP/1.1" 200 -
+2024-12-11 00:09:23,445 - INFO -  * Detected change in 'C:\\WEB\\FYS1\\app.py', reloading
+2024-12-11 00:09:23,445 - INFO -  * Detected change in 'C:\\WEB\\FYS1\\app.py', reloading
+2024-12-11 00:09:23,446 - INFO -  * Detected change in 'C:\\WEB\\FYS1\\app.py', reloading
+2024-12-11 00:09:24,547 - INFO -  * Restarting with watchdog (windowsapi)
+2024-12-11 00:09:25,502 - WARNING -  * Debugger is active!
+2024-12-11 00:09:25,505 - INFO -  * Debugger PIN: 881-337-769
+2024-12-11 00:09:31,573 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-11 00:09:31,575 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-11 00:09:31,584 - INFO -  * Restarting with watchdog (windowsapi)
+2024-12-11 00:09:32,537 - WARNING -  * Debugger is active!
+2024-12-11 00:09:32,537 - INFO -  * Debugger PIN: 881-337-769
+2024-12-11 00:09:34,070 - INFO - 127.0.0.1 - - [11/Dec/2024 00:09:34] "GET / HTTP/1.1" 200 -
+2024-12-11 00:09:34,369 - INFO - 127.0.0.1 - - [11/Dec/2024 00:09:34] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-11 00:09:34,436 - INFO - 127.0.0.1 - - [11/Dec/2024 00:09:34] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-12-11 00:09:34,540 - INFO - Received message: 'INIT' with session_id: '9850ffe0-2657-4637-a7ee-7415637accf1'
+2024-12-11 00:09:34,541 - INFO - Using existing session_id: 9850ffe0-2657-4637-a7ee-7415637accf1
+2024-12-11 00:09:34,542 - INFO - 127.0.0.1 - - [11/Dec/2024 00:09:34] "POST /chat HTTP/1.1" 200 -
+2024-12-11 00:09:39,686 - INFO - Received message: 'pit' with session_id: '9850ffe0-2657-4637-a7ee-7415637accf1'
+2024-12-11 00:09:39,687 - INFO - Using existing session_id: 9850ffe0-2657-4637-a7ee-7415637accf1
+2024-12-11 00:09:39,687 - INFO - Added interaction: session_id=9850ffe0-2657-4637-a7ee-7415637accf1, state=MAIN_MENU
+2024-12-11 00:09:39,693 - INFO - 127.0.0.1 - - [11/Dec/2024 00:09:39] "POST /chat HTTP/1.1" 200 -
+2024-12-11 00:09:41,273 - INFO - Received message: 'Explore Careers and Majors' with session_id: '9850ffe0-2657-4637-a7ee-7415637accf1'
+2024-12-11 00:09:41,274 - INFO - Using existing session_id: 9850ffe0-2657-4637-a7ee-7415637accf1
+2024-12-11 00:09:41,276 - INFO - Added interaction: session_id=9850ffe0-2657-4637-a7ee-7415637accf1, state=MAIN_MENU
+2024-12-11 00:09:41,276 - INFO - 127.0.0.1 - - [11/Dec/2024 00:09:41] "POST /chat HTTP/1.1" 200 -
+2024-12-11 00:09:43,517 - INFO - Received message: 'Research Colleges' with session_id: '9850ffe0-2657-4637-a7ee-7415637accf1'
+2024-12-11 00:09:43,519 - INFO - Using existing session_id: 9850ffe0-2657-4637-a7ee-7415637accf1
+2024-12-11 00:09:43,519 - INFO - Added interaction: session_id=9850ffe0-2657-4637-a7ee-7415637accf1, state=MAIN_MENU
+2024-12-11 00:09:43,521 - INFO - 127.0.0.1 - - [11/Dec/2024 00:09:43] "POST /chat HTTP/1.1" 200 -
+2024-12-11 00:09:44,839 - INFO - Received message: 'Get Application Advice' with session_id: '9850ffe0-2657-4637-a7ee-7415637accf1'
+2024-12-11 00:09:44,840 - INFO - Using existing session_id: 9850ffe0-2657-4637-a7ee-7415637accf1
+2024-12-11 00:09:44,841 - INFO - Added interaction: session_id=9850ffe0-2657-4637-a7ee-7415637accf1, state=MAIN_MENU
+2024-12-11 00:09:44,842 - INFO - 127.0.0.1 - - [11/Dec/2024 00:09:44] "POST /chat HTTP/1.1" 200 -
+2024-12-11 00:17:36,835 - INFO -  * Detected change in 'C:\\WEB\\FYS1\\app.py', reloading
+2024-12-11 00:17:36,835 - INFO -  * Detected change in 'C:\\WEB\\FYS1\\app.py', reloading
+2024-12-11 00:17:37,952 - INFO -  * Restarting with watchdog (windowsapi)
+2024-12-11 00:17:58,714 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-11 00:17:58,715 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-11 00:17:58,721 - INFO -  * Restarting with watchdog (windowsapi)
+2024-12-11 00:17:59,605 - WARNING -  * Debugger is active!
+2024-12-11 00:17:59,607 - INFO -  * Debugger PIN: 881-337-769
+2024-12-11 00:18:06,733 - INFO - 127.0.0.1 - - [11/Dec/2024 00:18:06] "GET / HTTP/1.1" 200 -
+2024-12-11 00:18:07,028 - INFO - 127.0.0.1 - - [11/Dec/2024 00:18:07] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-11 00:18:07,097 - INFO - 127.0.0.1 - - [11/Dec/2024 00:18:07] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-12-11 00:18:07,342 - INFO - Received message: 'INIT' with session_id: '9850ffe0-2657-4637-a7ee-7415637accf1'
+2024-12-11 00:18:07,342 - INFO - Using existing session_id: 9850ffe0-2657-4637-a7ee-7415637accf1
+2024-12-11 00:18:07,343 - INFO - 127.0.0.1 - - [11/Dec/2024 00:18:07] "POST /chat HTTP/1.1" 200 -
+2024-12-11 00:18:12,203 - INFO - Received message: 'lol' with session_id: '9850ffe0-2657-4637-a7ee-7415637accf1'
+2024-12-11 00:18:12,203 - INFO - Using existing session_id: 9850ffe0-2657-4637-a7ee-7415637accf1
+2024-12-11 00:18:12,203 - INFO - Added interaction: session_id=9850ffe0-2657-4637-a7ee-7415637accf1, name=lol, state=MAIN_MENU
+2024-12-11 00:18:12,203 - INFO - 127.0.0.1 - - [11/Dec/2024 00:18:12] "POST /chat HTTP/1.1" 200 -
+2024-12-11 00:18:15,031 - INFO - Received message: 'Explore Careers and Majors' with session_id: '9850ffe0-2657-4637-a7ee-7415637accf1'
+2024-12-11 00:18:15,032 - INFO - Using existing session_id: 9850ffe0-2657-4637-a7ee-7415637accf1
+2024-12-11 00:18:15,033 - INFO - Added interaction: session_id=9850ffe0-2657-4637-a7ee-7415637accf1, name=Explore Careers and Majors, state=MAIN_MENU
+2024-12-11 00:18:15,034 - INFO - 127.0.0.1 - - [11/Dec/2024 00:18:15] "POST /chat HTTP/1.1" 200 -
+2024-12-11 00:18:17,449 - INFO - Received message: 'Research Colleges' with session_id: '9850ffe0-2657-4637-a7ee-7415637accf1'
+2024-12-11 00:18:17,449 - INFO - Using existing session_id: 9850ffe0-2657-4637-a7ee-7415637accf1
+2024-12-11 00:18:17,449 - INFO - Added interaction: session_id=9850ffe0-2657-4637-a7ee-7415637accf1, name=Research Colleges, state=MAIN_MENU
+2024-12-11 00:18:17,449 - INFO - 127.0.0.1 - - [11/Dec/2024 00:18:17] "POST /chat HTTP/1.1" 200 -
+2024-12-11 00:18:18,622 - INFO - Received message: 'Get Application Advice' with session_id: '9850ffe0-2657-4637-a7ee-7415637accf1'
+2024-12-11 00:18:18,623 - INFO - Using existing session_id: 9850ffe0-2657-4637-a7ee-7415637accf1
+2024-12-11 00:18:18,625 - INFO - Added interaction: session_id=9850ffe0-2657-4637-a7ee-7415637accf1, name=Get Application Advice, state=MAIN_MENU
+2024-12-11 00:18:18,625 - INFO - 127.0.0.1 - - [11/Dec/2024 00:18:18] "POST /chat HTTP/1.1" 200 -
+2024-12-11 00:25:47,053 - INFO -  * Detected change in 'C:\\WEB\\FYS1\\app.py', reloading
+2024-12-11 00:25:47,053 - INFO -  * Detected change in 'C:\\WEB\\FYS1\\app.py', reloading
+2024-12-11 00:25:47,067 - INFO -  * Detected change in 'C:\\WEB\\FYS1\\app.py', reloading
+2024-12-11 00:25:47,474 - INFO -  * Detected change in 'C:\\WEB\\FYS1\\app.py', reloading
+2024-12-11 00:25:47,474 - INFO -  * Detected change in 'C:\\WEB\\FYS1\\app.py', reloading
+2024-12-11 00:25:48,610 - INFO -  * Restarting with watchdog (windowsapi)
+2024-12-11 00:25:49,625 - WARNING -  * Debugger is active!
+2024-12-11 00:25:49,625 - INFO -  * Debugger PIN: 881-337-769
+2024-12-11 00:25:58,202 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-11 00:25:58,202 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-11 00:25:58,209 - INFO -  * Restarting with watchdog (windowsapi)
+2024-12-11 00:25:59,143 - WARNING -  * Debugger is active!
+2024-12-11 00:25:59,146 - INFO -  * Debugger PIN: 881-337-769
+2024-12-11 00:26:01,032 - INFO - 127.0.0.1 - - [11/Dec/2024 00:26:01] "GET / HTTP/1.1" 200 -
+2024-12-11 00:26:01,323 - INFO - 127.0.0.1 - - [11/Dec/2024 00:26:01] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-11 00:26:01,391 - INFO - 127.0.0.1 - - [11/Dec/2024 00:26:01] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-12-11 00:26:01,635 - INFO - Received message: 'INIT' with session_id: '9850ffe0-2657-4637-a7ee-7415637accf1'
+2024-12-11 00:26:01,636 - INFO - Using existing session_id: 9850ffe0-2657-4637-a7ee-7415637accf1
+2024-12-11 00:26:01,636 - INFO - 127.0.0.1 - - [11/Dec/2024 00:26:01] "POST /chat HTTP/1.1" 200 -
+2024-12-11 00:26:06,262 - INFO - Received message: 'bob' with session_id: '9850ffe0-2657-4637-a7ee-7415637accf1'
+2024-12-11 00:26:06,262 - INFO - Using existing session_id: 9850ffe0-2657-4637-a7ee-7415637accf1
+2024-12-11 00:26:06,262 - INFO - Added interaction: session_id=9850ffe0-2657-4637-a7ee-7415637accf1, name=bob, state=MAIN_MENU
+2024-12-11 00:26:06,262 - INFO - 127.0.0.1 - - [11/Dec/2024 00:26:06] "POST /chat HTTP/1.1" 200 -
+2024-12-11 00:26:08,488 - INFO - Received message: 'Explore Careers and Majors' with session_id: '9850ffe0-2657-4637-a7ee-7415637accf1'
+2024-12-11 00:26:08,488 - INFO - Using existing session_id: 9850ffe0-2657-4637-a7ee-7415637accf1
+2024-12-11 00:26:08,490 - INFO - Added interaction: session_id=9850ffe0-2657-4637-a7ee-7415637accf1, name=Explore Careers and Majors, state=MAIN_MENU
+2024-12-11 00:26:08,491 - INFO - 127.0.0.1 - - [11/Dec/2024 00:26:08] "POST /chat HTTP/1.1" 200 -
+2024-12-11 00:32:15,741 - INFO -  * Detected change in 'C:\\WEB\\FYS1\\app.py', reloading
+2024-12-11 00:32:15,748 - INFO -  * Detected change in 'C:\\WEB\\FYS1\\app.py', reloading
+2024-12-11 00:32:17,013 - INFO -  * Restarting with watchdog (windowsapi)
+2024-12-11 00:32:23,438 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-11 00:32:23,438 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-11 00:32:23,457 - INFO -  * Restarting with watchdog (windowsapi)
+2024-12-11 00:32:26,598 - WARNING -  * Debugger is active!
+2024-12-11 00:32:26,607 - INFO -  * Debugger PIN: 881-337-769
+2024-12-11 00:32:28,498 - INFO - 127.0.0.1 - - [11/Dec/2024 00:32:28] "GET / HTTP/1.1" 200 -
+2024-12-11 00:32:28,847 - INFO - 127.0.0.1 - - [11/Dec/2024 00:32:28] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-11 00:32:28,967 - INFO - 127.0.0.1 - - [11/Dec/2024 00:32:28] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-12-11 00:32:29,700 - INFO - Received message: 'INIT' with session_id: '9850ffe0-2657-4637-a7ee-7415637accf1'
+2024-12-11 00:32:29,700 - INFO - Using existing session_id: 9850ffe0-2657-4637-a7ee-7415637accf1
+2024-12-11 00:32:29,701 - INFO - 127.0.0.1 - - [11/Dec/2024 00:32:29] "POST /chat HTTP/1.1" 200 -
+2024-12-11 00:32:35,569 - INFO - Received message: 'hoh' with session_id: '9850ffe0-2657-4637-a7ee-7415637accf1'
+2024-12-11 00:32:35,569 - INFO - Using existing session_id: 9850ffe0-2657-4637-a7ee-7415637accf1
+2024-12-11 00:32:35,571 - INFO - Added interaction: session_id=9850ffe0-2657-4637-a7ee-7415637accf1, name=hoh, state=MAIN_MENU
+2024-12-11 00:32:35,571 - INFO - 127.0.0.1 - - [11/Dec/2024 00:32:35] "POST /chat HTTP/1.1" 200 -
+2024-12-11 00:32:37,192 - INFO - Received message: 'Explore Careers and Majors' with session_id: '9850ffe0-2657-4637-a7ee-7415637accf1'
+2024-12-11 00:32:37,192 - INFO - Using existing session_id: 9850ffe0-2657-4637-a7ee-7415637accf1
+2024-12-11 00:32:37,192 - INFO - Added interaction: session_id=9850ffe0-2657-4637-a7ee-7415637accf1, name=Explore Careers and Majors, state=MAIN_MENU
+2024-12-11 00:32:37,192 - INFO - 127.0.0.1 - - [11/Dec/2024 00:32:37] "POST /chat HTTP/1.1" 200 -
+2024-12-11 00:32:39,937 - INFO - Received message: 'Research Colleges' with session_id: '9850ffe0-2657-4637-a7ee-7415637accf1'
+2024-12-11 00:32:39,937 - INFO - Using existing session_id: 9850ffe0-2657-4637-a7ee-7415637accf1
+2024-12-11 00:32:39,937 - INFO - Added interaction: session_id=9850ffe0-2657-4637-a7ee-7415637accf1, name=Research Colleges, state=MAIN_MENU
+2024-12-11 00:32:39,937 - INFO - 127.0.0.1 - - [11/Dec/2024 00:32:39] "POST /chat HTTP/1.1" 200 -
+2024-12-11 00:32:43,198 - INFO - Received message: 'Explore Careers and Majors' with session_id: '9850ffe0-2657-4637-a7ee-7415637accf1'
+2024-12-11 00:32:43,202 - INFO - Using existing session_id: 9850ffe0-2657-4637-a7ee-7415637accf1
+2024-12-11 00:32:43,205 - INFO - Added interaction: session_id=9850ffe0-2657-4637-a7ee-7415637accf1, name=Explore Careers and Majors, state=MAIN_MENU
+2024-12-11 00:32:43,205 - INFO - 127.0.0.1 - - [11/Dec/2024 00:32:43] "POST /chat HTTP/1.1" 200 -
+2024-12-11 00:46:04,999 - INFO -  * Detected change in 'C:\\WEB\\FYS1\\app.py', reloading
+2024-12-11 00:46:04,999 - INFO -  * Detected change in 'C:\\WEB\\FYS1\\app.py', reloading
+2024-12-11 00:46:06,270 - INFO -  * Restarting with watchdog (windowsapi)
+2024-12-11 00:46:09,368 - WARNING -  * Debugger is active!
+2024-12-11 00:46:09,384 - INFO -  * Debugger PIN: 881-337-769
+2024-12-11 00:46:18,484 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-11 00:46:18,485 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-11 00:46:18,509 - INFO -  * Restarting with watchdog (windowsapi)
+2024-12-11 00:46:21,346 - WARNING -  * Debugger is active!
+2024-12-11 00:46:21,354 - INFO -  * Debugger PIN: 881-337-769
+2024-12-11 00:46:25,809 - INFO - 127.0.0.1 - - [11/Dec/2024 00:46:25] "GET / HTTP/1.1" 200 -
+2024-12-11 00:46:26,118 - INFO - 127.0.0.1 - - [11/Dec/2024 00:46:26] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-11 00:46:26,253 - INFO - 127.0.0.1 - - [11/Dec/2024 00:46:26] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-12-11 00:46:26,419 - INFO - Received message: 'INIT' with session_id: '9850ffe0-2657-4637-a7ee-7415637accf1'
+2024-12-11 00:46:26,419 - INFO - Using existing session_id: 9850ffe0-2657-4637-a7ee-7415637accf1
+2024-12-11 00:46:26,419 - INFO - 127.0.0.1 - - [11/Dec/2024 00:46:26] "POST /chat HTTP/1.1" 200 -
+2024-12-11 00:46:31,586 - INFO - Received message: 'zhopa' with session_id: '9850ffe0-2657-4637-a7ee-7415637accf1'
+2024-12-11 00:46:31,586 - INFO - Using existing session_id: 9850ffe0-2657-4637-a7ee-7415637accf1
+2024-12-11 00:46:31,586 - INFO - Last interaction for session 9850ffe0-2657-4637-a7ee-7415637accf1: None
+2024-12-11 00:46:31,586 - INFO - Last interaction for session 9850ffe0-2657-4637-a7ee-7415637accf1: None
+2024-12-11 00:46:31,596 - INFO - Added interaction: session_id=9850ffe0-2657-4637-a7ee-7415637accf1, name=zhopa, state=MAIN_MENU
+2024-12-11 00:46:31,598 - INFO - 127.0.0.1 - - [11/Dec/2024 00:46:31] "POST /chat HTTP/1.1" 200 -
+2024-12-11 00:46:32,977 - INFO - Received message: 'Explore Careers and Majors' with session_id: '9850ffe0-2657-4637-a7ee-7415637accf1'
+2024-12-11 00:46:32,979 - INFO - Using existing session_id: 9850ffe0-2657-4637-a7ee-7415637accf1
+2024-12-11 00:46:32,979 - INFO - Last interaction for session 9850ffe0-2657-4637-a7ee-7415637accf1: None
+2024-12-11 00:46:32,981 - INFO - Last interaction for session 9850ffe0-2657-4637-a7ee-7415637accf1: None
+2024-12-11 00:46:32,982 - INFO - Added interaction: session_id=9850ffe0-2657-4637-a7ee-7415637accf1, name=Explore Careers and Majors, state=MAIN_MENU
+2024-12-11 00:46:32,982 - INFO - 127.0.0.1 - - [11/Dec/2024 00:46:32] "POST /chat HTTP/1.1" 200 -
+2024-12-11 00:46:36,655 - INFO - Received message: 'Research Colleges' with session_id: '9850ffe0-2657-4637-a7ee-7415637accf1'
+2024-12-11 00:46:36,655 - INFO - Using existing session_id: 9850ffe0-2657-4637-a7ee-7415637accf1
+2024-12-11 00:46:36,655 - INFO - Last interaction for session 9850ffe0-2657-4637-a7ee-7415637accf1: None
+2024-12-11 00:46:36,655 - INFO - Last interaction for session 9850ffe0-2657-4637-a7ee-7415637accf1: None
+2024-12-11 00:46:36,663 - INFO - Added interaction: session_id=9850ffe0-2657-4637-a7ee-7415637accf1, name=Research Colleges, state=MAIN_MENU
+2024-12-11 00:46:36,664 - INFO - 127.0.0.1 - - [11/Dec/2024 00:46:36] "POST /chat HTTP/1.1" 200 -
+2024-12-11 00:46:38,240 - INFO - Received message: 'Get Application Advice' with session_id: '9850ffe0-2657-4637-a7ee-7415637accf1'
+2024-12-11 00:46:38,240 - INFO - Using existing session_id: 9850ffe0-2657-4637-a7ee-7415637accf1
+2024-12-11 00:46:38,240 - INFO - Last interaction for session 9850ffe0-2657-4637-a7ee-7415637accf1: None
+2024-12-11 00:46:38,245 - INFO - Last interaction for session 9850ffe0-2657-4637-a7ee-7415637accf1: None
+2024-12-11 00:46:38,245 - INFO - Added interaction: session_id=9850ffe0-2657-4637-a7ee-7415637accf1, name=Get Application Advice, state=MAIN_MENU
+2024-12-11 00:46:38,247 - INFO - 127.0.0.1 - - [11/Dec/2024 00:46:38] "POST /chat HTTP/1.1" 200 -
+2024-12-11 00:51:01,503 - INFO -  * Detected change in 'C:\\WEB\\FYS1\\app.py', reloading
+2024-12-11 00:51:01,503 - INFO -  * Detected change in 'C:\\WEB\\FYS1\\app.py', reloading
+2024-12-11 00:51:01,507 - INFO -  * Detected change in 'C:\\WEB\\FYS1\\app.py', reloading
+2024-12-11 00:51:01,508 - INFO -  * Detected change in 'C:\\WEB\\FYS1\\app.py', reloading
+2024-12-11 00:51:02,760 - INFO -  * Restarting with watchdog (windowsapi)
+2024-12-11 00:55:19,770 - INFO - Created new JSON file: user_sessions.json
+2024-12-11 00:55:19,821 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-11 00:55:19,825 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-11 00:55:19,847 - INFO -  * Restarting with watchdog (windowsapi)
+2024-12-11 00:55:22,593 - WARNING -  * Debugger is active!
+2024-12-11 00:55:22,609 - INFO -  * Debugger PIN: 881-337-769
+2024-12-11 00:55:25,358 - INFO - 127.0.0.1 - - [11/Dec/2024 00:55:25] "GET / HTTP/1.1" 200 -
+2024-12-11 00:55:25,689 - INFO - 127.0.0.1 - - [11/Dec/2024 00:55:25] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-11 00:55:25,779 - INFO - 127.0.0.1 - - [11/Dec/2024 00:55:25] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-12-11 00:55:26,212 - INFO - Received message: 'INIT' with session_id: '9850ffe0-2657-4637-a7ee-7415637accf1'
+2024-12-11 00:55:26,217 - INFO - Using existing session_id: 9850ffe0-2657-4637-a7ee-7415637accf1
+2024-12-11 00:55:26,219 - INFO - 127.0.0.1 - - [11/Dec/2024 00:55:26] "POST /chat HTTP/1.1" 200 -
+2024-12-11 00:55:30,360 - INFO - Received message: 'jon' with session_id: '9850ffe0-2657-4637-a7ee-7415637accf1'
+2024-12-11 00:55:30,360 - INFO - Using existing session_id: 9850ffe0-2657-4637-a7ee-7415637accf1
+2024-12-11 00:55:30,360 - INFO - Added interaction: session_id=9850ffe0-2657-4637-a7ee-7415637accf1, data={'name': 'jon', 'current_state': 'MAIN_MENU'}
+2024-12-11 00:55:30,366 - INFO - 127.0.0.1 - - [11/Dec/2024 00:55:30] "POST /chat HTTP/1.1" 200 -
+2024-12-11 00:55:31,875 - INFO - Received message: 'Explore Careers and Majors' with session_id: '9850ffe0-2657-4637-a7ee-7415637accf1'
+2024-12-11 00:55:31,877 - INFO - Using existing session_id: 9850ffe0-2657-4637-a7ee-7415637accf1
+2024-12-11 00:55:31,893 - INFO - Added interaction: session_id=9850ffe0-2657-4637-a7ee-7415637accf1, data={'current_state': 'ASK_CAREER'}
+2024-12-11 00:55:31,898 - INFO - 127.0.0.1 - - [11/Dec/2024 00:55:31] "POST /chat HTTP/1.1" 200 -
+2024-12-11 00:55:51,440 - INFO - Received message: 'Data engineer' with session_id: '9850ffe0-2657-4637-a7ee-7415637accf1'
+2024-12-11 00:55:51,440 - INFO - Using existing session_id: 9850ffe0-2657-4637-a7ee-7415637accf1
+2024-12-11 00:55:51,454 - ERROR - OpenAI API error: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-12-11 00:55:51,461 - INFO - 127.0.0.1 - - [11/Dec/2024 00:55:51] "POST /chat HTTP/1.1" 200 -
+2024-12-11 01:09:46,890 - INFO -  * Detected change in 'C:\\WEB\\FYS1\\app.py', reloading
+2024-12-11 01:09:46,890 - INFO -  * Detected change in 'C:\\WEB\\FYS1\\app.py', reloading
+2024-12-11 01:09:46,890 - INFO -  * Detected change in 'C:\\WEB\\FYS1\\app.py', reloading
+2024-12-11 01:09:48,161 - INFO -  * Restarting with watchdog (windowsapi)
+2024-12-11 01:25:14,775 - INFO - Created new JSON file: user_choices.json
+2024-12-11 01:25:14,807 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-11 01:25:14,807 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-11 01:25:14,818 - INFO -  * Restarting with watchdog (windowsapi)
+2024-12-11 01:25:15,715 - WARNING -  * Debugger is active!
+2024-12-11 01:25:15,718 - INFO -  * Debugger PIN: 881-337-769
+2024-12-11 01:25:18,569 - INFO - 127.0.0.1 - - [11/Dec/2024 01:25:18] "GET / HTTP/1.1" 200 -
+2024-12-11 01:25:18,857 - INFO - 127.0.0.1 - - [11/Dec/2024 01:25:18] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-11 01:25:18,959 - INFO - 127.0.0.1 - - [11/Dec/2024 01:25:18] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-12-11 01:25:19,087 - INFO - Received message: 'INIT' with session_id: '9850ffe0-2657-4637-a7ee-7415637accf1'
+2024-12-11 01:25:19,087 - INFO - Using existing session_id: 9850ffe0-2657-4637-a7ee-7415637accf1
+2024-12-11 01:25:19,089 - INFO - 127.0.0.1 - - [11/Dec/2024 01:25:19] "POST /chat HTTP/1.1" 200 -
+2024-12-11 01:25:23,188 - INFO - Received message: 'bob' with session_id: '9850ffe0-2657-4637-a7ee-7415637accf1'
+2024-12-11 01:25:23,188 - INFO - Using existing session_id: 9850ffe0-2657-4637-a7ee-7415637accf1
+2024-12-11 01:25:23,222 - INFO - Last interaction for session 9850ffe0-2657-4637-a7ee-7415637accf1: None
+2024-12-11 01:25:23,223 - INFO - Last interaction for session 9850ffe0-2657-4637-a7ee-7415637accf1: None
+2024-12-11 01:25:23,224 - INFO - Data successfully saved to JSON.
+2024-12-11 01:25:23,224 - INFO - Added interaction: session_id=9850ffe0-2657-4637-a7ee-7415637accf1, name=bob, state=MAIN_MENU
+2024-12-11 01:25:23,224 - INFO - 127.0.0.1 - - [11/Dec/2024 01:25:23] "POST /chat HTTP/1.1" 200 -
+2024-12-11 01:25:25,546 - INFO - Received message: 'Explore Careers and Majors' with session_id: '9850ffe0-2657-4637-a7ee-7415637accf1'
+2024-12-11 01:25:25,547 - INFO - Using existing session_id: 9850ffe0-2657-4637-a7ee-7415637accf1
+2024-12-11 01:25:25,565 - INFO - Last interaction for session 9850ffe0-2657-4637-a7ee-7415637accf1: {'session_id': '9850ffe0-2657-4637-a7ee-7415637accf1', 'name': 'bob', 'timestamp': '2024-12-11 01:25:23', 'current_state': 'MAIN_MENU', 'major_selected': '', 'college_researched': ''}
+2024-12-11 01:25:25,566 - INFO - Last interaction for session 9850ffe0-2657-4637-a7ee-7415637accf1: {'session_id': '9850ffe0-2657-4637-a7ee-7415637accf1', 'name': 'bob', 'timestamp': '2024-12-11 01:25:23', 'current_state': 'MAIN_MENU', 'major_selected': '', 'college_researched': ''}
+2024-12-11 01:25:25,569 - INFO - Data successfully saved to JSON.
+2024-12-11 01:25:25,570 - INFO - Added interaction: session_id=9850ffe0-2657-4637-a7ee-7415637accf1, name=bob, state=ASK_CAREER
+2024-12-11 01:25:25,571 - INFO - 127.0.0.1 - - [11/Dec/2024 01:25:25] "POST /chat HTTP/1.1" 200 -
+2024-12-11 01:25:34,795 - INFO - Received message: 'Data science' with session_id: '9850ffe0-2657-4637-a7ee-7415637accf1'
+2024-12-11 01:25:34,795 - INFO - Using existing session_id: 9850ffe0-2657-4637-a7ee-7415637accf1
+2024-12-11 01:25:34,808 - INFO - Last interaction for session 9850ffe0-2657-4637-a7ee-7415637accf1: {'session_id': '9850ffe0-2657-4637-a7ee-7415637accf1', 'name': 'bob', 'timestamp': '2024-12-11 01:25:25', 'current_state': 'ASK_CAREER', 'major_selected': '', 'college_researched': ''}
+2024-12-11 01:25:34,808 - ERROR - OpenAI API error: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-12-11 01:25:34,811 - INFO - 127.0.0.1 - - [11/Dec/2024 01:25:34] "POST /chat HTTP/1.1" 200 -
+2024-12-11 01:27:25,448 - INFO -  * Detected change in 'C:\\WEB\\FYS1\\app.py', reloading
+2024-12-11 01:27:25,449 - INFO -  * Detected change in 'C:\\WEB\\FYS1\\app.py', reloading
+2024-12-11 01:27:25,809 - INFO -  * Detected change in 'C:\\WEB\\FYS1\\app.py', reloading
+2024-12-11 01:27:25,810 - INFO -  * Detected change in 'C:\\WEB\\FYS1\\app.py', reloading
+2024-12-11 01:27:25,810 - INFO -  * Detected change in 'C:\\WEB\\FYS1\\app.py', reloading
+2024-12-11 01:27:26,042 - INFO -  * Detected change in 'C:\\WEB\\FYS1\\app.py', reloading
+2024-12-11 01:27:26,042 - INFO -  * Detected change in 'C:\\WEB\\FYS1\\app.py', reloading
+2024-12-11 01:27:26,042 - INFO -  * Detected change in 'C:\\WEB\\FYS1\\app.py', reloading
+2024-12-11 01:27:27,175 - INFO -  * Restarting with watchdog (windowsapi)
+2024-12-11 01:27:28,642 - WARNING -  * Debugger is active!
+2024-12-11 01:27:28,642 - INFO -  * Debugger PIN: 881-337-769
+2024-12-11 01:27:37,850 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-11 01:27:37,850 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-11 01:27:37,859 - INFO -  * Restarting with watchdog (windowsapi)
+2024-12-11 01:27:39,102 - WARNING -  * Debugger is active!
+2024-12-11 01:27:39,102 - INFO -  * Debugger PIN: 881-337-769
+2024-12-11 01:27:42,602 - INFO - 127.0.0.1 - - [11/Dec/2024 01:27:42] "GET / HTTP/1.1" 200 -
+2024-12-11 01:27:42,904 - INFO - 127.0.0.1 - - [11/Dec/2024 01:27:42] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-11 01:27:42,965 - INFO - 127.0.0.1 - - [11/Dec/2024 01:27:42] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-12-11 01:27:43,048 - INFO - Received message: 'INIT' with session_id: '9850ffe0-2657-4637-a7ee-7415637accf1'
+2024-12-11 01:27:43,048 - INFO - Using existing session_id: 9850ffe0-2657-4637-a7ee-7415637accf1
+2024-12-11 01:27:43,049 - INFO - 127.0.0.1 - - [11/Dec/2024 01:27:43] "POST /chat HTTP/1.1" 200 -
+2024-12-11 01:27:47,508 - INFO - Received message: 'dan' with session_id: '9850ffe0-2657-4637-a7ee-7415637accf1'
+2024-12-11 01:27:47,508 - INFO - Using existing session_id: 9850ffe0-2657-4637-a7ee-7415637accf1
+2024-12-11 01:27:47,508 - INFO - Last interaction for session 9850ffe0-2657-4637-a7ee-7415637accf1: {'session_id': '9850ffe0-2657-4637-a7ee-7415637accf1', 'name': 'bob', 'timestamp': '2024-12-11 01:25:25', 'current_state': 'ASK_CAREER', 'major_selected': '', 'college_researched': ''}
+2024-12-11 01:27:48,438 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-11 01:27:48,454 - INFO - 127.0.0.1 - - [11/Dec/2024 01:27:48] "POST /chat HTTP/1.1" 200 -
+2024-12-11 01:27:55,140 - INFO - Received message: 'dan' with session_id: '9850ffe0-2657-4637-a7ee-7415637accf1'
+2024-12-11 01:27:55,140 - INFO - Using existing session_id: 9850ffe0-2657-4637-a7ee-7415637accf1
+2024-12-11 01:27:55,141 - INFO - Last interaction for session 9850ffe0-2657-4637-a7ee-7415637accf1: {'session_id': '9850ffe0-2657-4637-a7ee-7415637accf1', 'name': 'bob', 'timestamp': '2024-12-11 01:25:25', 'current_state': 'ASK_CAREER', 'major_selected': '', 'college_researched': ''}
+2024-12-11 01:27:55,686 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-11 01:27:55,702 - INFO - 127.0.0.1 - - [11/Dec/2024 01:27:55] "POST /chat HTTP/1.1" 200 -
+2024-12-11 01:30:04,672 - INFO -  * Detected change in 'C:\\WEB\\FYS1\\app.py', reloading
+2024-12-11 01:30:04,672 - INFO -  * Detected change in 'C:\\WEB\\FYS1\\app.py', reloading
+2024-12-11 01:30:05,806 - INFO -  * Restarting with watchdog (windowsapi)
+2024-12-11 01:30:07,153 - WARNING -  * Debugger is active!
+2024-12-11 01:30:07,153 - INFO -  * Debugger PIN: 881-337-769
+2024-12-11 01:30:11,514 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-11 01:30:11,515 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-11 01:30:11,522 - INFO -  * Restarting with watchdog (windowsapi)
+2024-12-11 01:30:12,930 - WARNING -  * Debugger is active!
+2024-12-11 01:30:12,934 - INFO -  * Debugger PIN: 881-337-769
+2024-12-11 01:30:14,795 - INFO - 127.0.0.1 - - [11/Dec/2024 01:30:14] "GET / HTTP/1.1" 200 -
+2024-12-11 01:30:15,082 - INFO - 127.0.0.1 - - [11/Dec/2024 01:30:15] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-11 01:30:15,157 - INFO - 127.0.0.1 - - [11/Dec/2024 01:30:15] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-12-11 01:30:15,254 - INFO - Received message: 'INIT' with session_id: '9850ffe0-2657-4637-a7ee-7415637accf1'
+2024-12-11 01:30:15,255 - INFO - Using existing session_id: 9850ffe0-2657-4637-a7ee-7415637accf1
+2024-12-11 01:30:15,256 - INFO - 127.0.0.1 - - [11/Dec/2024 01:30:15] "POST /chat HTTP/1.1" 200 -
+2024-12-11 01:30:19,476 - INFO - Received message: 'dan' with session_id: '9850ffe0-2657-4637-a7ee-7415637accf1'
+2024-12-11 01:30:19,476 - INFO - Using existing session_id: 9850ffe0-2657-4637-a7ee-7415637accf1
+2024-12-11 01:30:19,476 - INFO - Last interaction for session 9850ffe0-2657-4637-a7ee-7415637accf1: {'session_id': '9850ffe0-2657-4637-a7ee-7415637accf1', 'name': 'bob', 'timestamp': '2024-12-11 01:25:25', 'current_state': 'ASK_CAREER', 'major_selected': '', 'college_researched': ''}
+2024-12-11 01:30:20,246 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-11 01:30:20,254 - INFO - 127.0.0.1 - - [11/Dec/2024 01:30:20] "POST /chat HTTP/1.1" 200 -
+2024-12-11 01:32:29,107 - INFO -  * Detected change in 'C:\\WEB\\FYS1\\app.py', reloading
+2024-12-11 01:32:30,226 - INFO -  * Restarting with watchdog (windowsapi)
+2024-12-11 01:32:31,468 - WARNING -  * Debugger is active!
+2024-12-11 01:32:31,473 - INFO -  * Debugger PIN: 881-337-769
+2024-12-11 01:32:40,880 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-11 01:32:40,880 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-11 01:32:40,889 - INFO -  * Restarting with watchdog (windowsapi)
+2024-12-11 01:32:41,978 - WARNING -  * Debugger is active!
+2024-12-11 01:32:41,987 - INFO -  * Debugger PIN: 881-337-769
+2024-12-11 01:32:49,709 - INFO - 127.0.0.1 - - [11/Dec/2024 01:32:49] "GET / HTTP/1.1" 200 -
+2024-12-11 01:32:49,986 - INFO - 127.0.0.1 - - [11/Dec/2024 01:32:49] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-11 01:32:50,074 - INFO - 127.0.0.1 - - [11/Dec/2024 01:32:50] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-12-11 01:32:50,180 - INFO - Received message: 'INIT' with session_id: '9850ffe0-2657-4637-a7ee-7415637accf1'
+2024-12-11 01:32:50,180 - INFO - Using existing session_id: 9850ffe0-2657-4637-a7ee-7415637accf1
+2024-12-11 01:32:50,181 - INFO - 127.0.0.1 - - [11/Dec/2024 01:32:50] "POST /chat HTTP/1.1" 200 -
+2024-12-11 01:32:55,222 - INFO - Received message: 'bob' with session_id: '9850ffe0-2657-4637-a7ee-7415637accf1'
+2024-12-11 01:32:55,222 - INFO - Using existing session_id: 9850ffe0-2657-4637-a7ee-7415637accf1
+2024-12-11 01:32:55,222 - INFO - Last interaction for session 9850ffe0-2657-4637-a7ee-7415637accf1: {'session_id': '9850ffe0-2657-4637-a7ee-7415637accf1', 'name': 'bob', 'timestamp': '2024-12-11 01:25:25', 'current_state': 'ASK_CAREER', 'major_selected': '', 'college_researched': ''}
+2024-12-11 01:32:55,222 - ERROR - Error in /chat endpoint: module 'openai' has no attribute 'error'
+2024-12-11 01:32:55,230 - INFO - 127.0.0.1 - - [11/Dec/2024 01:32:55] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+2024-12-11 01:35:47,520 - INFO -  * Detected change in 'C:\\WEB\\FYS1\\app.py', reloading
+2024-12-11 01:35:47,520 - INFO -  * Detected change in 'C:\\WEB\\FYS1\\app.py', reloading
+2024-12-11 01:35:48,644 - INFO -  * Restarting with watchdog (windowsapi)
+2024-12-11 01:42:47,679 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-11 01:42:47,679 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-11 01:42:47,692 - INFO -  * Restarting with watchdog (windowsapi)
+2024-12-11 01:42:48,548 - WARNING -  * Debugger is active!
+2024-12-11 01:42:48,551 - INFO -  * Debugger PIN: 881-337-769
+2024-12-11 01:42:53,514 - INFO - 127.0.0.1 - - [11/Dec/2024 01:42:53] "GET / HTTP/1.1" 200 -
+2024-12-11 01:42:53,776 - INFO - 127.0.0.1 - - [11/Dec/2024 01:42:53] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-11 01:42:53,880 - INFO - 127.0.0.1 - - [11/Dec/2024 01:42:53] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-12-11 01:42:54,157 - INFO - Received message: 'INIT' with session_id: '9850ffe0-2657-4637-a7ee-7415637accf1'
+2024-12-11 01:42:54,158 - INFO - Using existing session_id: 9850ffe0-2657-4637-a7ee-7415637accf1
+2024-12-11 01:42:54,158 - INFO - 127.0.0.1 - - [11/Dec/2024 01:42:54] "POST /chat HTTP/1.1" 200 -
+2024-12-11 01:42:57,532 - INFO - Received message: 'dan' with session_id: '9850ffe0-2657-4637-a7ee-7415637accf1'
+2024-12-11 01:42:57,532 - INFO - Using existing session_id: 9850ffe0-2657-4637-a7ee-7415637accf1
+2024-12-11 01:42:57,533 - INFO - Last interaction for session 9850ffe0-2657-4637-a7ee-7415637accf1: {'session_id': '9850ffe0-2657-4637-a7ee-7415637accf1', 'name': 'bob', 'timestamp': '2024-12-11 01:25:25', 'current_state': 'ASK_CAREER', 'major_selected': '', 'college_researched': ''}
+2024-12-11 01:42:57,533 - ERROR - OpenAI API error: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-12-11 01:42:57,543 - INFO - 127.0.0.1 - - [11/Dec/2024 01:42:57] "POST /chat HTTP/1.1" 200 -
+2024-12-11 01:46:46,231 - INFO -  * Detected change in 'C:\\WEB\\FYS1\\app.py', reloading
+2024-12-11 01:46:46,231 - INFO -  * Detected change in 'C:\\WEB\\FYS1\\app.py', reloading
+2024-12-11 01:46:47,377 - INFO -  * Restarting with watchdog (windowsapi)
+2024-12-11 01:46:48,805 - WARNING -  * Debugger is active!
+2024-12-11 01:46:48,810 - INFO -  * Debugger PIN: 881-337-769
+2024-12-11 01:46:56,983 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-11 01:46:56,984 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-11 01:46:56,993 - INFO -  * Restarting with watchdog (windowsapi)
+2024-12-11 01:46:58,205 - WARNING -  * Debugger is active!
+2024-12-11 01:46:58,213 - INFO -  * Debugger PIN: 881-337-769
+2024-12-11 01:46:59,305 - INFO - 127.0.0.1 - - [11/Dec/2024 01:46:59] "GET / HTTP/1.1" 200 -
+2024-12-11 01:46:59,582 - INFO - 127.0.0.1 - - [11/Dec/2024 01:46:59] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-11 01:46:59,675 - INFO - 127.0.0.1 - - [11/Dec/2024 01:46:59] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-12-11 01:46:59,981 - INFO - Received message: 'INIT' with session_id: '9850ffe0-2657-4637-a7ee-7415637accf1'
+2024-12-11 01:46:59,981 - INFO - Using existing session_id: 9850ffe0-2657-4637-a7ee-7415637accf1
+2024-12-11 01:46:59,982 - INFO - 127.0.0.1 - - [11/Dec/2024 01:46:59] "POST /chat HTTP/1.1" 200 -
+2024-12-11 01:47:03,710 - INFO - Received message: 'joe' with session_id: '9850ffe0-2657-4637-a7ee-7415637accf1'
+2024-12-11 01:47:03,715 - INFO - Using existing session_id: 9850ffe0-2657-4637-a7ee-7415637accf1
+2024-12-11 01:47:03,715 - INFO - Last interaction for session 9850ffe0-2657-4637-a7ee-7415637accf1: {'session_id': '9850ffe0-2657-4637-a7ee-7415637accf1', 'name': 'bob', 'timestamp': '2024-12-11 01:25:25', 'current_state': 'ASK_CAREER', 'major_selected': '', 'college_researched': ''}
+2024-12-11 01:47:04,336 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-11 01:47:04,353 - INFO - 127.0.0.1 - - [11/Dec/2024 01:47:04] "POST /chat HTTP/1.1" 200 -
+2024-12-11 01:49:55,544 - INFO -  * Detected change in 'C:\\WEB\\FYS1\\app.py', reloading
+2024-12-11 01:49:55,545 - INFO -  * Detected change in 'C:\\WEB\\FYS1\\app.py', reloading
+2024-12-11 01:49:56,669 - INFO -  * Restarting with watchdog (windowsapi)
+2024-12-11 01:50:02,419 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-11 01:50:02,420 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-11 01:50:02,428 - INFO -  * Restarting with watchdog (windowsapi)
+2024-12-11 01:50:03,687 - WARNING -  * Debugger is active!
+2024-12-11 01:50:03,690 - INFO -  * Debugger PIN: 881-337-769
+2024-12-11 01:50:05,533 - INFO - 127.0.0.1 - - [11/Dec/2024 01:50:05] "GET / HTTP/1.1" 200 -
+2024-12-11 01:50:05,814 - INFO - 127.0.0.1 - - [11/Dec/2024 01:50:05] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-11 01:50:05,910 - INFO - 127.0.0.1 - - [11/Dec/2024 01:50:05] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-12-11 01:50:06,016 - INFO - Received message: 'INIT' with session_id: '9850ffe0-2657-4637-a7ee-7415637accf1'
+2024-12-11 01:50:06,018 - INFO - Data successfully saved to JSON.
+2024-12-11 01:50:06,018 - INFO - Cleared 2 interactions for session_id: 9850ffe0-2657-4637-a7ee-7415637accf1
+2024-12-11 01:50:06,030 - INFO - Last interaction for session 9850ffe0-2657-4637-a7ee-7415637accf1: None
+2024-12-11 01:50:06,031 - INFO - Data successfully saved to JSON.
+2024-12-11 01:50:06,032 - INFO - Added interaction: session_id=9850ffe0-2657-4637-a7ee-7415637accf1, name=, state=ASK_NAME
+2024-12-11 01:50:06,032 - INFO - Set current_state to ASK_NAME for session_id: 9850ffe0-2657-4637-a7ee-7415637accf1
+2024-12-11 01:50:06,033 - INFO - 127.0.0.1 - - [11/Dec/2024 01:50:06] "POST /chat HTTP/1.1" 200 -
+2024-12-11 01:50:10,598 - INFO - Received message: 'turkom' with session_id: '9850ffe0-2657-4637-a7ee-7415637accf1'
+2024-12-11 01:50:10,600 - INFO - Using existing session_id: 9850ffe0-2657-4637-a7ee-7415637accf1
+2024-12-11 01:50:10,614 - INFO - Last interaction for session 9850ffe0-2657-4637-a7ee-7415637accf1: {'session_id': '9850ffe0-2657-4637-a7ee-7415637accf1', 'name': '', 'timestamp': '2024-12-11 01:50:06', 'current_state': 'ASK_NAME', 'major_selected': '', 'college_researched': ''}
+2024-12-11 01:50:10,615 - INFO - Last interaction for session 9850ffe0-2657-4637-a7ee-7415637accf1: {'session_id': '9850ffe0-2657-4637-a7ee-7415637accf1', 'name': '', 'timestamp': '2024-12-11 01:50:06', 'current_state': 'ASK_NAME', 'major_selected': '', 'college_researched': ''}
+2024-12-11 01:50:10,617 - INFO - Data successfully saved to JSON.
+2024-12-11 01:50:10,617 - INFO - Added interaction: session_id=9850ffe0-2657-4637-a7ee-7415637accf1, name=turkom, state=MAIN_MENU
+2024-12-11 01:50:10,618 - INFO - 127.0.0.1 - - [11/Dec/2024 01:50:10] "POST /chat HTTP/1.1" 200 -
+2024-12-11 01:50:13,106 - INFO - Received message: 'Explore Careers and Majors' with session_id: '9850ffe0-2657-4637-a7ee-7415637accf1'
+2024-12-11 01:50:13,107 - INFO - Using existing session_id: 9850ffe0-2657-4637-a7ee-7415637accf1
+2024-12-11 01:50:13,118 - INFO - Last interaction for session 9850ffe0-2657-4637-a7ee-7415637accf1: {'session_id': '9850ffe0-2657-4637-a7ee-7415637accf1', 'name': 'turkom', 'timestamp': '2024-12-11 01:50:10', 'current_state': 'MAIN_MENU', 'major_selected': '', 'college_researched': ''}
+2024-12-11 01:50:13,119 - INFO - Last interaction for session 9850ffe0-2657-4637-a7ee-7415637accf1: {'session_id': '9850ffe0-2657-4637-a7ee-7415637accf1', 'name': 'turkom', 'timestamp': '2024-12-11 01:50:10', 'current_state': 'MAIN_MENU', 'major_selected': '', 'college_researched': ''}
+2024-12-11 01:50:13,121 - INFO - Data successfully saved to JSON.
+2024-12-11 01:50:13,121 - INFO - Added interaction: session_id=9850ffe0-2657-4637-a7ee-7415637accf1, name=turkom, state=ASK_CAREER
+2024-12-11 01:50:13,122 - INFO - 127.0.0.1 - - [11/Dec/2024 01:50:13] "POST /chat HTTP/1.1" 200 -
+2024-12-11 01:50:20,173 - INFO - Received message: 'Data science' with session_id: '9850ffe0-2657-4637-a7ee-7415637accf1'
+2024-12-11 01:50:20,173 - INFO - Using existing session_id: 9850ffe0-2657-4637-a7ee-7415637accf1
+2024-12-11 01:50:20,189 - INFO - Last interaction for session 9850ffe0-2657-4637-a7ee-7415637accf1: {'session_id': '9850ffe0-2657-4637-a7ee-7415637accf1', 'name': 'turkom', 'timestamp': '2024-12-11 01:50:13', 'current_state': 'ASK_CAREER', 'major_selected': '', 'college_researched': ''}
+2024-12-11 01:50:20,571 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-11 01:50:20,588 - INFO - 127.0.0.1 - - [11/Dec/2024 01:50:20] "POST /chat HTTP/1.1" 200 -
+2024-12-11 01:53:40,404 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-11 01:53:40,404 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-11 01:53:40,421 - INFO -  * Restarting with watchdog (windowsapi)
+2024-12-11 01:53:41,682 - WARNING -  * Debugger is active!
+2024-12-11 01:53:41,682 - INFO -  * Debugger PIN: 881-337-769
+2024-12-11 01:53:48,750 - INFO - 127.0.0.1 - - [11/Dec/2024 01:53:48] "GET / HTTP/1.1" 200 -
+2024-12-11 01:53:49,044 - INFO - 127.0.0.1 - - [11/Dec/2024 01:53:49] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-11 01:53:49,120 - INFO - 127.0.0.1 - - [11/Dec/2024 01:53:49] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-12-11 01:53:49,266 - INFO - Received message: 'INIT' with session_id: '9850ffe0-2657-4637-a7ee-7415637accf1'
+2024-12-11 01:53:49,268 - INFO - Data successfully saved to JSON.
+2024-12-11 01:53:49,268 - INFO - Cleared 3 interactions for session_id: 9850ffe0-2657-4637-a7ee-7415637accf1
+2024-12-11 01:53:49,269 - INFO - Last interaction for session 9850ffe0-2657-4637-a7ee-7415637accf1: None
+2024-12-11 01:53:49,270 - INFO - Data successfully saved to JSON.
+2024-12-11 01:53:49,271 - INFO - Added interaction: session_id=9850ffe0-2657-4637-a7ee-7415637accf1, name=, state=ASK_NAME
+2024-12-11 01:53:49,271 - INFO - Set current_state to ASK_NAME for session_id: 9850ffe0-2657-4637-a7ee-7415637accf1
+2024-12-11 01:53:49,272 - INFO - 127.0.0.1 - - [11/Dec/2024 01:53:49] "POST /chat HTTP/1.1" 200 -
+2024-12-11 01:53:52,889 - INFO - Received message: 'Laura' with session_id: '9850ffe0-2657-4637-a7ee-7415637accf1'
+2024-12-11 01:53:52,891 - INFO - Using existing session_id: 9850ffe0-2657-4637-a7ee-7415637accf1
+2024-12-11 01:53:52,903 - INFO - Last interaction for session 9850ffe0-2657-4637-a7ee-7415637accf1: {'session_id': '9850ffe0-2657-4637-a7ee-7415637accf1', 'name': '', 'timestamp': '2024-12-11 01:53:49', 'current_state': 'ASK_NAME', 'major_selected': '', 'college_researched': ''}
+2024-12-11 01:53:52,903 - INFO - Last interaction for session 9850ffe0-2657-4637-a7ee-7415637accf1: {'session_id': '9850ffe0-2657-4637-a7ee-7415637accf1', 'name': '', 'timestamp': '2024-12-11 01:53:49', 'current_state': 'ASK_NAME', 'major_selected': '', 'college_researched': ''}
+2024-12-11 01:53:52,904 - INFO - Data successfully saved to JSON.
+2024-12-11 01:53:52,904 - INFO - Added interaction: session_id=9850ffe0-2657-4637-a7ee-7415637accf1, name=Laura, state=MAIN_MENU
+2024-12-11 01:53:52,905 - INFO - 127.0.0.1 - - [11/Dec/2024 01:53:52] "POST /chat HTTP/1.1" 200 -
+2024-12-11 01:53:55,115 - INFO - Received message: 'Explore Careers and Majors' with session_id: '9850ffe0-2657-4637-a7ee-7415637accf1'
+2024-12-11 01:53:55,115 - INFO - Using existing session_id: 9850ffe0-2657-4637-a7ee-7415637accf1
+2024-12-11 01:53:55,123 - INFO - Last interaction for session 9850ffe0-2657-4637-a7ee-7415637accf1: {'session_id': '9850ffe0-2657-4637-a7ee-7415637accf1', 'name': 'Laura', 'timestamp': '2024-12-11 01:53:52', 'current_state': 'MAIN_MENU', 'major_selected': '', 'college_researched': ''}
+2024-12-11 01:53:55,124 - INFO - Last interaction for session 9850ffe0-2657-4637-a7ee-7415637accf1: {'session_id': '9850ffe0-2657-4637-a7ee-7415637accf1', 'name': 'Laura', 'timestamp': '2024-12-11 01:53:52', 'current_state': 'MAIN_MENU', 'major_selected': '', 'college_researched': ''}
+2024-12-11 01:53:55,125 - INFO - Data successfully saved to JSON.
+2024-12-11 01:53:55,126 - INFO - Added interaction: session_id=9850ffe0-2657-4637-a7ee-7415637accf1, name=Laura, state=ASK_CAREER
+2024-12-11 01:53:55,126 - INFO - 127.0.0.1 - - [11/Dec/2024 01:53:55] "POST /chat HTTP/1.1" 200 -
+2024-12-11 01:54:10,882 - INFO - Received message: 'Academic advisor' with session_id: '9850ffe0-2657-4637-a7ee-7415637accf1'
+2024-12-11 01:54:10,882 - INFO - Using existing session_id: 9850ffe0-2657-4637-a7ee-7415637accf1
+2024-12-11 01:54:10,903 - INFO - Last interaction for session 9850ffe0-2657-4637-a7ee-7415637accf1: {'session_id': '9850ffe0-2657-4637-a7ee-7415637accf1', 'name': 'Laura', 'timestamp': '2024-12-11 01:53:55', 'current_state': 'ASK_CAREER', 'major_selected': '', 'college_researched': ''}
+2024-12-11 01:54:11,349 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-11 01:54:11,356 - INFO - 127.0.0.1 - - [11/Dec/2024 01:54:11] "POST /chat HTTP/1.1" 200 -
+2024-12-11 01:56:55,969 - INFO -  * Detected change in 'C:\\WEB\\FYS1\\app.py', reloading
+2024-12-11 01:56:56,328 - INFO -  * Detected change in 'C:\\WEB\\FYS1\\app.py', reloading
+2024-12-11 01:56:56,328 - INFO -  * Detected change in 'C:\\WEB\\FYS1\\app.py', reloading
+2024-12-11 01:56:56,328 - INFO -  * Detected change in 'C:\\WEB\\FYS1\\app.py', reloading
+2024-12-11 01:56:57,471 - INFO -  * Restarting with watchdog (windowsapi)
+2024-12-11 02:03:06,605 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-11 02:03:06,605 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-11 02:03:06,622 - INFO -  * Restarting with watchdog (windowsapi)
+2024-12-11 02:03:07,789 - WARNING -  * Debugger is active!
+2024-12-11 02:03:07,793 - INFO -  * Debugger PIN: 881-337-769
+2024-12-11 02:03:19,085 - INFO - 127.0.0.1 - - [11/Dec/2024 02:03:19] "GET / HTTP/1.1" 200 -
+2024-12-11 02:03:19,367 - INFO - 127.0.0.1 - - [11/Dec/2024 02:03:19] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-11 02:03:19,452 - INFO - 127.0.0.1 - - [11/Dec/2024 02:03:19] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-12-11 02:03:19,644 - INFO - Received message: 'INIT' with session_id: '9850ffe0-2657-4637-a7ee-7415637accf1'
+2024-12-11 02:03:19,647 - INFO - Data successfully saved to JSON.
+2024-12-11 02:03:19,647 - INFO - Cleared 3 interactions for session_id: 9850ffe0-2657-4637-a7ee-7415637accf1
+2024-12-11 02:03:19,650 - INFO - Last interaction for session 9850ffe0-2657-4637-a7ee-7415637accf1: None
+2024-12-11 02:03:19,651 - INFO - Data successfully saved to JSON.
+2024-12-11 02:03:19,653 - INFO - Added interaction: session_id=9850ffe0-2657-4637-a7ee-7415637accf1, name=, state=ASK_NAME
+2024-12-11 02:03:19,653 - INFO - Set current_state to ASK_NAME for session_id: 9850ffe0-2657-4637-a7ee-7415637accf1
+2024-12-11 02:03:19,656 - INFO - 127.0.0.1 - - [11/Dec/2024 02:03:19] "POST /chat HTTP/1.1" 200 -
+2024-12-11 02:03:23,715 - INFO - Received message: 'iryna' with session_id: '9850ffe0-2657-4637-a7ee-7415637accf1'
+2024-12-11 02:03:23,715 - INFO - Using existing session_id: 9850ffe0-2657-4637-a7ee-7415637accf1
+2024-12-11 02:03:23,733 - INFO - Last interaction for session 9850ffe0-2657-4637-a7ee-7415637accf1: {'session_id': '9850ffe0-2657-4637-a7ee-7415637accf1', 'name': '', 'timestamp': '2024-12-11 02:03:19', 'current_state': 'ASK_NAME', 'major_selected': '', 'college_researched': ''}
+2024-12-11 02:03:23,735 - INFO - Last interaction for session 9850ffe0-2657-4637-a7ee-7415637accf1: {'session_id': '9850ffe0-2657-4637-a7ee-7415637accf1', 'name': '', 'timestamp': '2024-12-11 02:03:19', 'current_state': 'ASK_NAME', 'major_selected': '', 'college_researched': ''}
+2024-12-11 02:03:23,736 - INFO - Data successfully saved to JSON.
+2024-12-11 02:03:23,737 - INFO - Added interaction: session_id=9850ffe0-2657-4637-a7ee-7415637accf1, name=iryna, state=MAIN_MENU
+2024-12-11 02:03:23,738 - INFO - 127.0.0.1 - - [11/Dec/2024 02:03:23] "POST /chat HTTP/1.1" 200 -
+2024-12-11 02:03:26,277 - INFO - Received message: 'Explore Careers and Majors' with session_id: '9850ffe0-2657-4637-a7ee-7415637accf1'
+2024-12-11 02:03:26,278 - INFO - Using existing session_id: 9850ffe0-2657-4637-a7ee-7415637accf1
+2024-12-11 02:03:26,288 - INFO - Last interaction for session 9850ffe0-2657-4637-a7ee-7415637accf1: {'session_id': '9850ffe0-2657-4637-a7ee-7415637accf1', 'name': 'iryna', 'timestamp': '2024-12-11 02:03:23', 'current_state': 'MAIN_MENU', 'major_selected': '', 'college_researched': ''}
+2024-12-11 02:03:26,290 - INFO - Last interaction for session 9850ffe0-2657-4637-a7ee-7415637accf1: {'session_id': '9850ffe0-2657-4637-a7ee-7415637accf1', 'name': 'iryna', 'timestamp': '2024-12-11 02:03:23', 'current_state': 'MAIN_MENU', 'major_selected': '', 'college_researched': ''}
+2024-12-11 02:03:26,291 - INFO - Data successfully saved to JSON.
+2024-12-11 02:03:26,291 - INFO - Added interaction: session_id=9850ffe0-2657-4637-a7ee-7415637accf1, name=iryna, state=ASK_CAREER
+2024-12-11 02:03:26,292 - INFO - 127.0.0.1 - - [11/Dec/2024 02:03:26] "POST /chat HTTP/1.1" 200 -
+2024-12-11 02:03:35,111 - INFO - Received message: 'data analytic' with session_id: '9850ffe0-2657-4637-a7ee-7415637accf1'
+2024-12-11 02:03:35,111 - INFO - Using existing session_id: 9850ffe0-2657-4637-a7ee-7415637accf1
+2024-12-11 02:03:35,121 - INFO - Last interaction for session 9850ffe0-2657-4637-a7ee-7415637accf1: {'session_id': '9850ffe0-2657-4637-a7ee-7415637accf1', 'name': 'iryna', 'timestamp': '2024-12-11 02:03:26', 'current_state': 'ASK_CAREER', 'major_selected': '', 'college_researched': ''}
+2024-12-11 02:03:39,638 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-11 02:03:39,657 - INFO - 127.0.0.1 - - [11/Dec/2024 02:03:39] "POST /chat HTTP/1.1" 200 -
+2024-12-11 02:06:13,555 - INFO -  * Detected change in 'C:\\WEB\\FYS1\\app.py', reloading
+2024-12-11 02:06:13,557 - INFO -  * Detected change in 'C:\\WEB\\FYS1\\app.py', reloading
+2024-12-11 02:06:13,886 - INFO -  * Detected change in 'C:\\WEB\\FYS1\\app.py', reloading
+2024-12-11 02:06:13,888 - INFO -  * Detected change in 'C:\\WEB\\FYS1\\app.py', reloading
+2024-12-11 02:06:14,129 - INFO -  * Detected change in 'C:\\WEB\\FYS1\\app.py', reloading
+2024-12-11 02:06:14,129 - INFO -  * Detected change in 'C:\\WEB\\FYS1\\app.py', reloading
+2024-12-11 02:06:14,129 - INFO -  * Detected change in 'C:\\WEB\\FYS1\\app.py', reloading
+2024-12-11 02:06:14,383 - INFO -  * Detected change in 'C:\\WEB\\FYS1\\app.py', reloading
+2024-12-11 02:06:14,384 - INFO -  * Detected change in 'C:\\WEB\\FYS1\\app.py', reloading
+2024-12-11 02:06:14,384 - INFO -  * Detected change in 'C:\\WEB\\FYS1\\app.py', reloading
+2024-12-11 02:06:15,486 - INFO -  * Restarting with watchdog (windowsapi)
+2024-12-11 02:06:16,841 - WARNING -  * Debugger is active!
+2024-12-11 02:06:16,841 - INFO -  * Debugger PIN: 881-337-769
+2024-12-11 02:06:20,571 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-11 02:06:20,571 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-11 02:06:20,584 - INFO -  * Restarting with watchdog (windowsapi)
+2024-12-11 02:06:21,734 - WARNING -  * Debugger is active!
+2024-12-11 02:06:21,740 - INFO -  * Debugger PIN: 881-337-769
+2024-12-11 02:06:29,136 - INFO - 127.0.0.1 - - [11/Dec/2024 02:06:29] "GET / HTTP/1.1" 200 -
+2024-12-11 02:06:29,423 - INFO - 127.0.0.1 - - [11/Dec/2024 02:06:29] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-11 02:06:29,492 - INFO - 127.0.0.1 - - [11/Dec/2024 02:06:29] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-12-11 02:06:29,538 - INFO - Received message: 'INIT' with session_id: '9850ffe0-2657-4637-a7ee-7415637accf1'
+2024-12-11 02:06:29,540 - INFO - Data successfully saved to JSON.
+2024-12-11 02:06:29,540 - INFO - Cleared 3 interactions for session_id: 9850ffe0-2657-4637-a7ee-7415637accf1
+2024-12-11 02:06:29,542 - INFO - Last interaction for session 9850ffe0-2657-4637-a7ee-7415637accf1: None
+2024-12-11 02:06:29,543 - INFO - Data successfully saved to JSON.
+2024-12-11 02:06:29,543 - INFO - Added interaction: session_id=9850ffe0-2657-4637-a7ee-7415637accf1, name=, state=ASK_NAME
+2024-12-11 02:06:29,544 - INFO - Set current_state to ASK_NAME for session_id: 9850ffe0-2657-4637-a7ee-7415637accf1
+2024-12-11 02:06:29,545 - INFO - 127.0.0.1 - - [11/Dec/2024 02:06:29] "POST /chat HTTP/1.1" 200 -
+2024-12-11 02:06:34,631 - INFO - Received message: 'tolya' with session_id: '9850ffe0-2657-4637-a7ee-7415637accf1'
+2024-12-11 02:06:34,631 - INFO - Using existing session_id: 9850ffe0-2657-4637-a7ee-7415637accf1
+2024-12-11 02:06:34,642 - INFO - Last interaction for session 9850ffe0-2657-4637-a7ee-7415637accf1: {'session_id': '9850ffe0-2657-4637-a7ee-7415637accf1', 'name': '', 'timestamp': '2024-12-11 02:06:29', 'current_state': 'ASK_NAME', 'major_selected': '', 'college_researched': ''}
+2024-12-11 02:06:34,643 - INFO - Last interaction for session 9850ffe0-2657-4637-a7ee-7415637accf1: {'session_id': '9850ffe0-2657-4637-a7ee-7415637accf1', 'name': '', 'timestamp': '2024-12-11 02:06:29', 'current_state': 'ASK_NAME', 'major_selected': '', 'college_researched': ''}
+2024-12-11 02:06:34,644 - INFO - Data successfully saved to JSON.
+2024-12-11 02:06:34,645 - INFO - Added interaction: session_id=9850ffe0-2657-4637-a7ee-7415637accf1, name=tolya, state=MAIN_MENU
+2024-12-11 02:06:34,646 - INFO - 127.0.0.1 - - [11/Dec/2024 02:06:34] "POST /chat HTTP/1.1" 200 -
+2024-12-11 02:06:37,208 - INFO - Received message: 'Explore Careers and Majors' with session_id: '9850ffe0-2657-4637-a7ee-7415637accf1'
+2024-12-11 02:06:37,209 - INFO - Using existing session_id: 9850ffe0-2657-4637-a7ee-7415637accf1
+2024-12-11 02:06:37,217 - INFO - Last interaction for session 9850ffe0-2657-4637-a7ee-7415637accf1: {'session_id': '9850ffe0-2657-4637-a7ee-7415637accf1', 'name': 'tolya', 'timestamp': '2024-12-11 02:06:34', 'current_state': 'MAIN_MENU', 'major_selected': '', 'college_researched': ''}
+2024-12-11 02:06:37,218 - INFO - Last interaction for session 9850ffe0-2657-4637-a7ee-7415637accf1: {'session_id': '9850ffe0-2657-4637-a7ee-7415637accf1', 'name': 'tolya', 'timestamp': '2024-12-11 02:06:34', 'current_state': 'MAIN_MENU', 'major_selected': '', 'college_researched': ''}
+2024-12-11 02:06:37,219 - INFO - Data successfully saved to JSON.
+2024-12-11 02:06:37,220 - INFO - Added interaction: session_id=9850ffe0-2657-4637-a7ee-7415637accf1, name=tolya, state=ASK_CAREER
+2024-12-11 02:06:37,221 - INFO - 127.0.0.1 - - [11/Dec/2024 02:06:37] "POST /chat HTTP/1.1" 200 -
+2024-12-11 02:06:42,564 - INFO - Received message: 'data science' with session_id: '9850ffe0-2657-4637-a7ee-7415637accf1'
+2024-12-11 02:06:42,564 - INFO - Using existing session_id: 9850ffe0-2657-4637-a7ee-7415637accf1
+2024-12-11 02:06:42,578 - INFO - Last interaction for session 9850ffe0-2657-4637-a7ee-7415637accf1: {'session_id': '9850ffe0-2657-4637-a7ee-7415637accf1', 'name': 'tolya', 'timestamp': '2024-12-11 02:06:37', 'current_state': 'ASK_CAREER', 'major_selected': '', 'college_researched': ''}
+2024-12-11 02:06:42,965 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-11 02:06:42,968 - INFO - OpenAI API Response: ```json
+2024-12-11 02:06:42,968 - WARNING - Attempt 1: Expected 4 majors, got 0. Retrying...
+2024-12-11 02:06:43,229 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-11 02:06:43,241 - INFO - OpenAI API Response: ```json
+2024-12-11 02:06:43,241 - WARNING - Attempt 2: Expected 4 majors, got 0. Retrying...
+2024-12-11 02:06:43,511 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-11 02:06:43,515 - INFO - OpenAI API Response: ```json
+2024-12-11 02:06:43,515 - WARNING - Attempt 3: Expected 4 majors, got 0. Retrying...
+2024-12-11 02:06:43,517 - INFO - 127.0.0.1 - - [11/Dec/2024 02:06:43] "POST /chat HTTP/1.1" 200 -
+2024-12-11 02:09:27,412 - INFO -  * Detected change in 'C:\\WEB\\FYS1\\app.py', reloading
+2024-12-11 02:09:27,413 - INFO -  * Detected change in 'C:\\WEB\\FYS1\\app.py', reloading
+2024-12-11 02:09:28,543 - INFO -  * Restarting with watchdog (windowsapi)
+2024-12-11 02:09:29,904 - WARNING -  * Debugger is active!
+2024-12-11 02:09:29,907 - INFO -  * Debugger PIN: 881-337-769
+2024-12-11 02:09:37,045 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-11 02:09:37,046 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-11 02:09:37,053 - INFO -  * Restarting with watchdog (windowsapi)
+2024-12-11 02:09:38,277 - WARNING -  * Debugger is active!
+2024-12-11 02:09:38,284 - INFO -  * Debugger PIN: 881-337-769
+2024-12-11 02:09:41,560 - INFO - 127.0.0.1 - - [11/Dec/2024 02:09:41] "GET / HTTP/1.1" 200 -
+2024-12-11 02:09:41,838 - INFO - 127.0.0.1 - - [11/Dec/2024 02:09:41] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-11 02:09:41,929 - INFO - 127.0.0.1 - - [11/Dec/2024 02:09:41] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-12-11 02:09:42,036 - INFO - Received message: 'INIT' with session_id: '9850ffe0-2657-4637-a7ee-7415637accf1'
+2024-12-11 02:09:42,037 - INFO - Data successfully saved to JSON.
+2024-12-11 02:09:42,037 - INFO - Cleared 3 interactions for session_id: 9850ffe0-2657-4637-a7ee-7415637accf1
+2024-12-11 02:09:42,040 - INFO - Last interaction for session 9850ffe0-2657-4637-a7ee-7415637accf1: None
+2024-12-11 02:09:42,041 - INFO - Data successfully saved to JSON.
+2024-12-11 02:09:42,041 - INFO - Added interaction: session_id=9850ffe0-2657-4637-a7ee-7415637accf1, name=, state=ASK_NAME
+2024-12-11 02:09:42,042 - INFO - Set current_state to ASK_NAME for session_id: 9850ffe0-2657-4637-a7ee-7415637accf1
+2024-12-11 02:09:42,043 - INFO - 127.0.0.1 - - [11/Dec/2024 02:09:42] "POST /chat HTTP/1.1" 200 -
+2024-12-11 02:09:45,267 - INFO - Received message: 'mamka' with session_id: '9850ffe0-2657-4637-a7ee-7415637accf1'
+2024-12-11 02:09:45,267 - INFO - Using existing session_id: 9850ffe0-2657-4637-a7ee-7415637accf1
+2024-12-11 02:09:45,283 - INFO - Last interaction for session 9850ffe0-2657-4637-a7ee-7415637accf1: {'session_id': '9850ffe0-2657-4637-a7ee-7415637accf1', 'name': '', 'timestamp': '2024-12-11 02:09:42', 'current_state': 'ASK_NAME', 'major_selected': '', 'college_researched': ''}
+2024-12-11 02:09:45,285 - INFO - Last interaction for session 9850ffe0-2657-4637-a7ee-7415637accf1: {'session_id': '9850ffe0-2657-4637-a7ee-7415637accf1', 'name': '', 'timestamp': '2024-12-11 02:09:42', 'current_state': 'ASK_NAME', 'major_selected': '', 'college_researched': ''}
+2024-12-11 02:09:45,287 - INFO - Data successfully saved to JSON.
+2024-12-11 02:09:45,288 - INFO - Added interaction: session_id=9850ffe0-2657-4637-a7ee-7415637accf1, name=mamka, state=MAIN_MENU
+2024-12-11 02:09:45,288 - INFO - 127.0.0.1 - - [11/Dec/2024 02:09:45] "POST /chat HTTP/1.1" 200 -
+2024-12-11 02:09:48,245 - INFO - Received message: 'Explore Careers and Majors' with session_id: '9850ffe0-2657-4637-a7ee-7415637accf1'
+2024-12-11 02:09:48,245 - INFO - Using existing session_id: 9850ffe0-2657-4637-a7ee-7415637accf1
+2024-12-11 02:09:48,261 - INFO - Last interaction for session 9850ffe0-2657-4637-a7ee-7415637accf1: {'session_id': '9850ffe0-2657-4637-a7ee-7415637accf1', 'name': 'mamka', 'timestamp': '2024-12-11 02:09:45', 'current_state': 'MAIN_MENU', 'major_selected': '', 'college_researched': ''}
+2024-12-11 02:09:48,262 - INFO - Last interaction for session 9850ffe0-2657-4637-a7ee-7415637accf1: {'session_id': '9850ffe0-2657-4637-a7ee-7415637accf1', 'name': 'mamka', 'timestamp': '2024-12-11 02:09:45', 'current_state': 'MAIN_MENU', 'major_selected': '', 'college_researched': ''}
+2024-12-11 02:09:48,264 - INFO - Data successfully saved to JSON.
+2024-12-11 02:09:48,265 - INFO - Added interaction: session_id=9850ffe0-2657-4637-a7ee-7415637accf1, name=mamka, state=ASK_CAREER
+2024-12-11 02:09:48,265 - INFO - 127.0.0.1 - - [11/Dec/2024 02:09:48] "POST /chat HTTP/1.1" 200 -
+2024-12-11 02:09:52,913 - INFO - Received message: 'police' with session_id: '9850ffe0-2657-4637-a7ee-7415637accf1'
+2024-12-11 02:09:52,916 - INFO - Using existing session_id: 9850ffe0-2657-4637-a7ee-7415637accf1
+2024-12-11 02:09:52,924 - INFO - Last interaction for session 9850ffe0-2657-4637-a7ee-7415637accf1: {'session_id': '9850ffe0-2657-4637-a7ee-7415637accf1', 'name': 'mamka', 'timestamp': '2024-12-11 02:09:48', 'current_state': 'ASK_CAREER', 'major_selected': '', 'college_researched': ''}
+2024-12-11 02:09:53,380 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-11 02:09:53,395 - INFO - OpenAI API Response: ["Criminal Justice", "Forensic Science", "Public Administration", "Sociology"]
+2024-12-11 02:09:53,395 - WARNING - Failed to parse majors as JSON: Criminal Justice, Forensic Science, Public Administration, Sociology
+2024-12-11 02:09:53,395 - INFO - 127.0.0.1 - - [11/Dec/2024 02:09:53] "POST /chat HTTP/1.1" 200 -
+2024-12-11 04:21:40,852 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-11 04:21:40,853 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-11 04:21:40,867 - INFO -  * Restarting with watchdog (windowsapi)
+2024-12-11 04:21:42,008 - WARNING -  * Debugger is active!
+2024-12-11 04:21:42,013 - INFO -  * Debugger PIN: 881-337-769
+2024-12-11 04:21:48,637 - INFO - 127.0.0.1 - - [11/Dec/2024 04:21:48] "GET / HTTP/1.1" 200 -
+2024-12-11 04:21:48,883 - INFO - 127.0.0.1 - - [11/Dec/2024 04:21:48] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-11 04:21:49,175 - INFO - 127.0.0.1 - - [11/Dec/2024 04:21:49] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-12-11 04:21:49,428 - INFO - Received message: 'INIT' with session_id: '9850ffe0-2657-4637-a7ee-7415637accf1'
+2024-12-11 04:21:49,431 - INFO - Data successfully saved to JSON.
+2024-12-11 04:21:49,431 - INFO - Added interaction: session_id=7113329e-0479-4f3c-bb6b-366f317cde11, name=, state=ASK_NAME
+2024-12-11 04:21:49,432 - INFO - 127.0.0.1 - - [11/Dec/2024 04:21:49] "POST /chat HTTP/1.1" 200 -
+2024-12-11 04:21:54,566 - INFO - Received message: 'Bob' with session_id: '7113329e-0479-4f3c-bb6b-366f317cde11'
+2024-12-11 04:21:54,576 - INFO - Data successfully saved to JSON.
+2024-12-11 04:21:54,577 - INFO - Added interaction: session_id=7113329e-0479-4f3c-bb6b-366f317cde11, name=Bob, state=MAIN_MENU
+2024-12-11 04:21:54,578 - INFO - 127.0.0.1 - - [11/Dec/2024 04:21:54] "POST /chat HTTP/1.1" 200 -
+2024-12-11 04:21:57,093 - INFO - Received message: 'Explore Careers and Majors' with session_id: '7113329e-0479-4f3c-bb6b-366f317cde11'
+2024-12-11 04:21:57,101 - INFO - Data successfully saved to JSON.
+2024-12-11 04:21:57,101 - INFO - Added interaction: session_id=7113329e-0479-4f3c-bb6b-366f317cde11, name=Bob, state=ASK_CAREER
+2024-12-11 04:21:57,102 - INFO - 127.0.0.1 - - [11/Dec/2024 04:21:57] "POST /chat HTTP/1.1" 200 -
+2024-12-11 04:22:03,741 - INFO - Received message: 'Data science' with session_id: '7113329e-0479-4f3c-bb6b-366f317cde11'
+2024-12-11 04:22:04,128 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-11 04:22:04,143 - INFO - Data successfully saved to JSON.
+2024-12-11 04:22:04,143 - INFO - Added interaction: session_id=7113329e-0479-4f3c-bb6b-366f317cde11, name=Bob, state=SHOW_MAJORS
+2024-12-11 04:22:04,144 - INFO - 127.0.0.1 - - [11/Dec/2024 04:22:04] "POST /chat HTTP/1.1" 200 -
+2024-12-11 04:22:11,004 - INFO - Received message: 'Computer Science2. Statistics3. Mathematics4. Data ScienceClick a major to learn more' with session_id: '7113329e-0479-4f3c-bb6b-366f317cde11'
+2024-12-11 04:22:11,012 - INFO - 127.0.0.1 - - [11/Dec/2024 04:22:11] "POST /chat HTTP/1.1" 200 -
+2024-12-11 04:22:17,160 - INFO - Received message: 'Computer Science3. Statistics4. Mathematics5. Data Science' with session_id: '7113329e-0479-4f3c-bb6b-366f317cde11'
+2024-12-11 04:22:17,161 - INFO - 127.0.0.1 - - [11/Dec/2024 04:22:17] "POST /chat HTTP/1.1" 200 -
+2024-12-11 04:27:26,870 - INFO -  * Detected change in 'C:\\WEB\\FYS1\\app.py', reloading
+2024-12-11 04:27:26,870 - INFO -  * Detected change in 'C:\\WEB\\FYS1\\app.py', reloading
+2024-12-11 04:27:26,871 - INFO -  * Detected change in 'C:\\WEB\\FYS1\\app.py', reloading
+2024-12-11 04:27:28,011 - INFO -  * Restarting with watchdog (windowsapi)
+2024-12-11 04:27:29,401 - WARNING -  * Debugger is active!
+2024-12-11 04:27:29,404 - INFO -  * Debugger PIN: 881-337-769
+2024-12-11 04:27:34,070 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-11 04:27:34,071 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-11 04:27:34,080 - INFO -  * Restarting with watchdog (windowsapi)
+2024-12-11 04:27:35,223 - WARNING -  * Debugger is active!
+2024-12-11 04:27:35,226 - INFO -  * Debugger PIN: 881-337-769
+2024-12-11 04:27:40,874 - INFO - 127.0.0.1 - - [11/Dec/2024 04:27:40] "GET / HTTP/1.1" 200 -
+2024-12-11 04:27:41,177 - INFO - 127.0.0.1 - - [11/Dec/2024 04:27:41] "GET /static/styles.css HTTP/1.1" 200 -
+2024-12-11 04:27:41,299 - INFO - 127.0.0.1 - - [11/Dec/2024 04:27:41] "GET /static/script.js HTTP/1.1" 200 -
+2024-12-11 04:27:41,448 - INFO - Received message: 'INIT' with session_id: '7113329e-0479-4f3c-bb6b-366f317cde11'
+2024-12-11 04:27:41,449 - INFO - Data successfully saved to JSON.
+2024-12-11 04:27:41,450 - INFO - Added interaction: session_id=6df14388-68f3-4d65-a714-00332146fad9, name=, state=ASK_NAME
+2024-12-11 04:27:41,450 - INFO - 127.0.0.1 - - [11/Dec/2024 04:27:41] "POST /chat HTTP/1.1" 200 -
+2024-12-11 04:27:44,712 - INFO - Received message: 'Bob' with session_id: '6df14388-68f3-4d65-a714-00332146fad9'
+2024-12-11 04:27:44,723 - INFO - Data successfully saved to JSON.
+2024-12-11 04:27:44,724 - INFO - Added interaction: session_id=6df14388-68f3-4d65-a714-00332146fad9, name=Bob, state=MAIN_MENU
+2024-12-11 04:27:44,724 - INFO - 127.0.0.1 - - [11/Dec/2024 04:27:44] "POST /chat HTTP/1.1" 200 -
+2024-12-11 04:27:46,707 - INFO - Received message: 'Explore Careers and Majors' with session_id: '6df14388-68f3-4d65-a714-00332146fad9'
+2024-12-11 04:27:46,722 - INFO - Data successfully saved to JSON.
+2024-12-11 04:27:46,723 - INFO - Added interaction: session_id=6df14388-68f3-4d65-a714-00332146fad9, name=Bob, state=ASK_CAREER
+2024-12-11 04:27:46,724 - INFO - 127.0.0.1 - - [11/Dec/2024 04:27:46] "POST /chat HTTP/1.1" 200 -
+2024-12-11 04:27:54,257 - INFO - Received message: 'Politics' with session_id: '6df14388-68f3-4d65-a714-00332146fad9'
+2024-12-11 04:27:54,702 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-11 04:27:54,711 - INFO - Data successfully saved to JSON.
+2024-12-11 04:27:54,711 - INFO - Added interaction: session_id=6df14388-68f3-4d65-a714-00332146fad9, name=Bob, state=SHOW_MAJORS
+2024-12-11 04:27:54,711 - INFO - 127.0.0.1 - - [11/Dec/2024 04:27:54] "POST /chat HTTP/1.1" 200 -
+2024-12-11 04:31:58,764 - INFO -  * Detected change in 'C:\\WEB\\FYS1\\app.py', reloading
+2024-12-11 04:31:58,765 - INFO -  * Detected change in 'C:\\WEB\\FYS1\\app.py', reloading
+2024-12-11 04:31:59,227 - INFO -  * Detected change in 'C:\\WEB\\FYS1\\app.py', reloading
+2024-12-11 04:31:59,227 - INFO -  * Detected change in 'C:\\WEB\\FYS1\\app.py', reloading
+2024-12-11 04:32:00,337 - INFO -  * Restarting with watchdog (windowsapi)
+2024-12-11 04:32:01,556 - WARNING -  * Debugger is active!
+2024-12-11 04:32:01,560 - INFO -  * Debugger PIN: 881-337-769
+2024-12-11 04:32:05,141 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-11 04:32:05,142 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-11 04:32:05,149 - INFO -  * Restarting with watchdog (windowsapi)
+2024-12-11 04:32:06,263 - WARNING -  * Debugger is active!
+2024-12-11 04:32:06,267 - INFO -  * Debugger PIN: 881-337-769
+2024-12-11 04:32:12,602 - INFO - 127.0.0.1 - - [11/Dec/2024 04:32:12] "GET / HTTP/1.1" 200 -
+2024-12-11 04:32:12,877 - INFO - 127.0.0.1 - - [11/Dec/2024 04:32:12] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-11 04:32:12,955 - INFO - 127.0.0.1 - - [11/Dec/2024 04:32:12] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-12-11 04:32:13,031 - INFO - Received message: 'INIT' with session_id: '6df14388-68f3-4d65-a714-00332146fad9'
+2024-12-11 04:32:13,044 - INFO - Data successfully saved to JSON.
+2024-12-11 04:32:13,044 - INFO - Added interaction: session_id=f6aafff1-27ad-450a-b7d4-fae2ef9f4144, name=, state=ASK_NAME
+2024-12-11 04:32:13,045 - INFO - 127.0.0.1 - - [11/Dec/2024 04:32:13] "POST /chat HTTP/1.1" 200 -
+2024-12-11 04:32:16,534 - INFO - Received message: 'jopka' with session_id: 'f6aafff1-27ad-450a-b7d4-fae2ef9f4144'
+2024-12-11 04:32:16,546 - INFO - Data successfully saved to JSON.
+2024-12-11 04:32:16,546 - INFO - Added interaction: session_id=f6aafff1-27ad-450a-b7d4-fae2ef9f4144, name=jopka, state=MAIN_MENU
+2024-12-11 04:32:16,547 - INFO - 127.0.0.1 - - [11/Dec/2024 04:32:16] "POST /chat HTTP/1.1" 200 -
+2024-12-11 04:32:18,289 - INFO - Received message: 'Explore Careers and Majors' with session_id: 'f6aafff1-27ad-450a-b7d4-fae2ef9f4144'
+2024-12-11 04:32:18,299 - INFO - Data successfully saved to JSON.
+2024-12-11 04:32:18,300 - INFO - Added interaction: session_id=f6aafff1-27ad-450a-b7d4-fae2ef9f4144, name=jopka, state=ASK_CAREER
+2024-12-11 04:32:18,300 - INFO - 127.0.0.1 - - [11/Dec/2024 04:32:18] "POST /chat HTTP/1.1" 200 -
+2024-12-11 04:32:24,528 - INFO - Received message: 'politics' with session_id: 'f6aafff1-27ad-450a-b7d4-fae2ef9f4144'
+2024-12-11 04:32:25,901 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-11 04:32:25,911 - INFO - Data successfully saved to JSON.
+2024-12-11 04:32:25,911 - INFO - Added interaction: session_id=f6aafff1-27ad-450a-b7d4-fae2ef9f4144, name=jopka, state=SHOW_MAJORS
+2024-12-11 04:32:25,912 - INFO - 127.0.0.1 - - [11/Dec/2024 04:32:25] "POST /chat HTTP/1.1" 200 -
+2024-12-11 04:35:55,846 - INFO -  * Detected change in 'C:\\WEB\\FYS1\\app.py', reloading
+2024-12-11 04:35:55,847 - INFO -  * Detected change in 'C:\\WEB\\FYS1\\app.py', reloading
+2024-12-11 04:35:57,008 - INFO -  * Restarting with watchdog (windowsapi)
+2024-12-11 04:35:58,350 - WARNING -  * Debugger is active!
+2024-12-11 04:35:58,353 - INFO -  * Debugger PIN: 881-337-769
+2024-12-11 04:38:02,653 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-11 04:38:02,654 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-11 04:38:02,662 - INFO -  * Restarting with watchdog (windowsapi)
+2024-12-11 04:38:03,865 - WARNING -  * Debugger is active!
+2024-12-11 04:38:03,868 - INFO -  * Debugger PIN: 881-337-769
+2024-12-11 04:38:10,321 - INFO - 127.0.0.1 - - [11/Dec/2024 04:38:10] "GET / HTTP/1.1" 200 -
+2024-12-11 04:38:10,612 - INFO - 127.0.0.1 - - [11/Dec/2024 04:38:10] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-11 04:38:10,788 - INFO - 127.0.0.1 - - [11/Dec/2024 04:38:10] "GET /static/script.js HTTP/1.1" 200 -
+2024-12-11 04:38:10,946 - INFO - Received message: 'INIT' with session_id: 'f6aafff1-27ad-450a-b7d4-fae2ef9f4144'
+2024-12-11 04:38:10,957 - INFO - Data successfully saved to JSON.
+2024-12-11 04:38:10,958 - INFO - Added interaction: session_id=a0c70acb-2e6b-4f3f-9164-47e44618881b, name=, state=ASK_NAME
+2024-12-11 04:38:10,959 - INFO - 127.0.0.1 - - [11/Dec/2024 04:38:10] "POST /chat HTTP/1.1" 200 -
+2024-12-11 04:38:23,910 - INFO - Received message: 'Bob' with session_id: 'a0c70acb-2e6b-4f3f-9164-47e44618881b'
+2024-12-11 04:38:23,926 - INFO - Data successfully saved to JSON.
+2024-12-11 04:38:23,926 - INFO - Added interaction: session_id=a0c70acb-2e6b-4f3f-9164-47e44618881b, name=Bob, state=MAIN_MENU
+2024-12-11 04:38:23,927 - INFO - 127.0.0.1 - - [11/Dec/2024 04:38:23] "POST /chat HTTP/1.1" 200 -
+2024-12-11 04:38:26,303 - INFO - Received message: 'Explore Careers and Majors' with session_id: 'a0c70acb-2e6b-4f3f-9164-47e44618881b'
+2024-12-11 04:38:26,311 - INFO - Data successfully saved to JSON.
+2024-12-11 04:38:26,313 - INFO - Added interaction: session_id=a0c70acb-2e6b-4f3f-9164-47e44618881b, name=Bob, state=ASK_CAREER
+2024-12-11 04:38:26,314 - INFO - 127.0.0.1 - - [11/Dec/2024 04:38:26] "POST /chat HTTP/1.1" 200 -
+2024-12-11 04:38:30,815 - INFO - Received message: 'Politics' with session_id: 'a0c70acb-2e6b-4f3f-9164-47e44618881b'
+2024-12-11 04:38:31,394 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-11 04:38:31,424 - INFO - Data successfully saved to JSON.
+2024-12-11 04:38:31,424 - INFO - Added interaction: session_id=a0c70acb-2e6b-4f3f-9164-47e44618881b, name=Bob, state=SHOW_MAJORS
+2024-12-11 04:38:31,425 - INFO - 127.0.0.1 - - [11/Dec/2024 04:38:31] "POST /chat HTTP/1.1" 200 -
+2024-12-11 04:40:10,091 - INFO -  * Detected change in 'C:\\WEB\\FYS1\\app.py', reloading
+2024-12-11 04:40:10,091 - INFO -  * Detected change in 'C:\\WEB\\FYS1\\app.py', reloading
+2024-12-11 04:40:11,215 - INFO -  * Restarting with watchdog (windowsapi)
+2024-12-11 04:40:49,588 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-11 04:40:49,589 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-11 04:40:49,602 - INFO -  * Restarting with watchdog (windowsapi)
+2024-12-11 04:40:50,887 - WARNING -  * Debugger is active!
+2024-12-11 04:40:50,890 - INFO -  * Debugger PIN: 881-337-769
+2024-12-11 04:40:53,321 - INFO - 127.0.0.1 - - [11/Dec/2024 04:40:53] "GET / HTTP/1.1" 200 -
+2024-12-11 04:40:53,604 - INFO - 127.0.0.1 - - [11/Dec/2024 04:40:53] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-11 04:40:53,687 - INFO - 127.0.0.1 - - [11/Dec/2024 04:40:53] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-12-11 04:40:53,714 - INFO - Received message: 'INIT' with session_id: 'a0c70acb-2e6b-4f3f-9164-47e44618881b'
+2024-12-11 04:40:53,725 - INFO - Data successfully saved to JSON.
+2024-12-11 04:40:53,726 - INFO - Added interaction: session_id=6389a39a-a128-4efc-ba47-ce88f43e6818, name=, state=ASK_NAME
+2024-12-11 04:40:53,727 - INFO - 127.0.0.1 - - [11/Dec/2024 04:40:53] "POST /chat HTTP/1.1" 200 -
+2024-12-11 04:40:58,072 - INFO - Received message: 'bok' with session_id: '6389a39a-a128-4efc-ba47-ce88f43e6818'
+2024-12-11 04:40:58,087 - INFO - Data successfully saved to JSON.
+2024-12-11 04:40:58,087 - INFO - Added interaction: session_id=6389a39a-a128-4efc-ba47-ce88f43e6818, name=bok, state=MAIN_MENU
+2024-12-11 04:40:58,088 - INFO - 127.0.0.1 - - [11/Dec/2024 04:40:58] "POST /chat HTTP/1.1" 200 -
+2024-12-11 04:41:00,517 - INFO - Received message: 'Explore Careers and Majors' with session_id: '6389a39a-a128-4efc-ba47-ce88f43e6818'
+2024-12-11 04:41:00,533 - INFO - Data successfully saved to JSON.
+2024-12-11 04:41:00,533 - INFO - Added interaction: session_id=6389a39a-a128-4efc-ba47-ce88f43e6818, name=bok, state=ASK_CAREER
+2024-12-11 04:41:00,534 - INFO - 127.0.0.1 - - [11/Dec/2024 04:41:00] "POST /chat HTTP/1.1" 200 -
+2024-12-11 04:41:05,318 - INFO - Received message: 'politics' with session_id: '6389a39a-a128-4efc-ba47-ce88f43e6818'
+2024-12-11 04:41:05,968 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-11 04:41:06,111 - INFO - Data successfully saved to JSON.
+2024-12-11 04:41:06,111 - INFO - Added interaction: session_id=6389a39a-a128-4efc-ba47-ce88f43e6818, name=bok, state=SHOW_MAJORS
+2024-12-11 04:41:06,112 - INFO - 127.0.0.1 - - [11/Dec/2024 04:41:06] "POST /chat HTTP/1.1" 200 -
+2024-12-11 04:41:42,740 - INFO -  * Detected change in 'C:\\WEB\\FYS1\\app.py', reloading
+2024-12-11 04:41:42,748 - INFO -  * Detected change in 'C:\\WEB\\FYS1\\app.py', reloading
+2024-12-11 04:41:43,991 - INFO -  * Restarting with watchdog (windowsapi)
+2024-12-11 04:41:48,323 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-11 04:41:48,323 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-11 04:41:48,338 - INFO -  * Restarting with watchdog (windowsapi)
+2024-12-11 04:41:49,754 - WARNING -  * Debugger is active!
+2024-12-11 04:41:49,759 - INFO -  * Debugger PIN: 881-337-769
+2024-12-11 04:41:49,780 - INFO - 127.0.0.1 - - [11/Dec/2024 04:41:49] "GET / HTTP/1.1" 200 -
+2024-12-11 04:41:49,969 - INFO - 127.0.0.1 - - [11/Dec/2024 04:41:49] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-11 04:41:50,200 - INFO - 127.0.0.1 - - [11/Dec/2024 04:41:50] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-12-11 04:41:50,819 - INFO - Received message: 'INIT' with session_id: '6389a39a-a128-4efc-ba47-ce88f43e6818'
+2024-12-11 04:41:50,839 - INFO - Data successfully saved to JSON.
+2024-12-11 04:41:50,840 - INFO - Added interaction: session_id=a1e745c3-4a59-49b0-ab08-431fc4935b3e, name=, state=ASK_NAME
+2024-12-11 04:41:50,841 - INFO - 127.0.0.1 - - [11/Dec/2024 04:41:50] "POST /chat HTTP/1.1" 200 -
+2024-12-11 04:41:53,908 - INFO - Received message: 'Bot' with session_id: 'a1e745c3-4a59-49b0-ab08-431fc4935b3e'
+2024-12-11 04:41:53,919 - INFO - Data successfully saved to JSON.
+2024-12-11 04:41:53,919 - INFO - Added interaction: session_id=a1e745c3-4a59-49b0-ab08-431fc4935b3e, name=Bot, state=MAIN_MENU
+2024-12-11 04:41:53,920 - INFO - 127.0.0.1 - - [11/Dec/2024 04:41:53] "POST /chat HTTP/1.1" 200 -
+2024-12-11 04:41:56,059 - INFO - Received message: 'Explore Careers and Majors' with session_id: 'a1e745c3-4a59-49b0-ab08-431fc4935b3e'
+2024-12-11 04:41:56,076 - INFO - Data successfully saved to JSON.
+2024-12-11 04:41:56,077 - INFO - Added interaction: session_id=a1e745c3-4a59-49b0-ab08-431fc4935b3e, name=Bot, state=ASK_CAREER
+2024-12-11 04:41:56,078 - INFO - 127.0.0.1 - - [11/Dec/2024 04:41:56] "POST /chat HTTP/1.1" 200 -
+2024-12-11 04:42:00,505 - INFO - Received message: 'politics' with session_id: 'a1e745c3-4a59-49b0-ab08-431fc4935b3e'
+2024-12-11 04:42:00,894 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-11 04:42:00,912 - INFO - Data successfully saved to JSON.
+2024-12-11 04:42:00,912 - INFO - Added interaction: session_id=a1e745c3-4a59-49b0-ab08-431fc4935b3e, name=Bot, state=SHOW_MAJORS
+2024-12-11 04:42:00,913 - INFO - 127.0.0.1 - - [11/Dec/2024 04:42:00] "POST /chat HTTP/1.1" 200 -
+2024-12-11 04:50:33,108 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-11 04:50:33,129 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-11 04:50:33,144 - INFO -  * Restarting with watchdog (windowsapi)
+2024-12-11 04:50:34,434 - WARNING -  * Debugger is active!
+2024-12-11 04:50:34,437 - INFO -  * Debugger PIN: 881-337-769
+2024-12-11 04:50:37,369 - INFO - 127.0.0.1 - - [11/Dec/2024 04:50:37] "GET / HTTP/1.1" 200 -
+2024-12-11 04:50:37,663 - INFO - 127.0.0.1 - - [11/Dec/2024 04:50:37] "GET /static/styles.css HTTP/1.1" 200 -
+2024-12-11 04:50:37,815 - INFO - 127.0.0.1 - - [11/Dec/2024 04:50:37] "GET /static/script.js HTTP/1.1" 200 -
+2024-12-11 04:50:38,016 - INFO - Received message: 'INIT' with session_id: 'a1e745c3-4a59-49b0-ab08-431fc4935b3e'
+2024-12-11 04:50:38,024 - INFO - Data successfully saved to JSON.
+2024-12-11 04:50:38,025 - INFO - Added interaction: session_id=cc7c7e9c-cda9-4ade-ab06-72416deea635, name=, state=ASK_NAME
+2024-12-11 04:50:38,026 - INFO - 127.0.0.1 - - [11/Dec/2024 04:50:38] "POST /chat HTTP/1.1" 200 -
+2024-12-11 04:50:41,739 - INFO - Received message: 'Bob' with session_id: 'cc7c7e9c-cda9-4ade-ab06-72416deea635'
+2024-12-11 04:50:41,752 - INFO - Data successfully saved to JSON.
+2024-12-11 04:50:41,753 - INFO - Added interaction: session_id=cc7c7e9c-cda9-4ade-ab06-72416deea635, name=Bob, state=MAIN_MENU
+2024-12-11 04:50:41,753 - INFO - 127.0.0.1 - - [11/Dec/2024 04:50:41] "POST /chat HTTP/1.1" 200 -
+2024-12-11 04:50:43,355 - INFO - Received message: 'Explore Careers and Majors' with session_id: 'cc7c7e9c-cda9-4ade-ab06-72416deea635'
+2024-12-11 04:50:43,364 - INFO - Data successfully saved to JSON.
+2024-12-11 04:50:43,364 - INFO - Added interaction: session_id=cc7c7e9c-cda9-4ade-ab06-72416deea635, name=Bob, state=ASK_CAREER
+2024-12-11 04:50:43,365 - INFO - 127.0.0.1 - - [11/Dec/2024 04:50:43] "POST /chat HTTP/1.1" 200 -
+2024-12-11 04:50:50,192 - INFO - Received message: 'Politics' with session_id: 'cc7c7e9c-cda9-4ade-ab06-72416deea635'
+2024-12-11 04:50:50,580 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-11 04:50:50,593 - INFO - OpenAI response: Political Science, Public Administration, International Relations, Public Policy
+2024-12-11 04:50:50,595 - INFO - Data successfully saved to JSON.
+2024-12-11 04:50:50,595 - INFO - Added interaction: session_id=cc7c7e9c-cda9-4ade-ab06-72416deea635, name=Bob, state=SHOW_MAJORS
+2024-12-11 04:50:50,595 - INFO - 127.0.0.1 - - [11/Dec/2024 04:50:50] "POST /chat HTTP/1.1" 200 -
+2024-12-11 04:50:55,058 - INFO - Received message: 'Political Science' with session_id: 'cc7c7e9c-cda9-4ade-ab06-72416deea635'
+2024-12-11 04:50:57,421 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-11 04:50:57,430 - INFO - Data successfully saved to JSON.
+2024-12-11 04:50:57,430 - INFO - Added interaction: session_id=cc7c7e9c-cda9-4ade-ab06-72416deea635, name=Bob, state=MAIN_MENU
+2024-12-11 04:50:57,431 - INFO - 127.0.0.1 - - [11/Dec/2024 04:50:57] "POST /chat HTTP/1.1" 200 -
+2024-12-11 04:51:03,476 - INFO - Received message: 'Research Colleges' with session_id: 'cc7c7e9c-cda9-4ade-ab06-72416deea635'
+2024-12-11 04:51:03,488 - INFO - Data successfully saved to JSON.
+2024-12-11 04:51:03,488 - INFO - Added interaction: session_id=cc7c7e9c-cda9-4ade-ab06-72416deea635, name=Bob, state=ASK_COLLEGE
+2024-12-11 04:51:03,488 - INFO - 127.0.0.1 - - [11/Dec/2024 04:51:03] "POST /chat HTTP/1.1" 200 -
+2024-12-11 04:51:07,623 - INFO - Received message: 'Guttman' with session_id: 'cc7c7e9c-cda9-4ade-ab06-72416deea635'
+2024-12-11 04:51:07,630 - INFO - Data successfully saved to JSON.
+2024-12-11 04:51:07,632 - INFO - Added interaction: session_id=cc7c7e9c-cda9-4ade-ab06-72416deea635, name=Bob, state=MAIN_MENU
+2024-12-11 04:51:08,213 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-11 04:51:08,525 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-11 04:51:09,011 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-11 04:51:09,013 - INFO - 127.0.0.1 - - [11/Dec/2024 04:51:09] "POST /chat HTTP/1.1" 200 -
+2024-12-11 04:56:18,176 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-11 04:56:18,177 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-11 04:56:18,191 - INFO -  * Restarting with watchdog (windowsapi)
+2024-12-11 04:56:19,537 - WARNING -  * Debugger is active!
+2024-12-11 04:56:19,541 - INFO -  * Debugger PIN: 881-337-769
+2024-12-11 04:56:20,129 - INFO - 127.0.0.1 - - [11/Dec/2024 04:56:20] "GET / HTTP/1.1" 200 -
+2024-12-11 04:56:20,427 - INFO - 127.0.0.1 - - [11/Dec/2024 04:56:20] "GET /static/styles.css HTTP/1.1" 200 -
+2024-12-11 04:56:20,499 - INFO - 127.0.0.1 - - [11/Dec/2024 04:56:20] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-12-11 04:56:20,795 - INFO - Received message: 'INIT' with session_id: 'cc7c7e9c-cda9-4ade-ab06-72416deea635'
+2024-12-11 04:56:20,809 - INFO - Data successfully saved to JSON.
+2024-12-11 04:56:20,809 - INFO - Added interaction: session_id=0e03bf40-0e6e-46a7-9ace-0f88af40ea95, name=, state=ASK_NAME
+2024-12-11 04:56:20,810 - INFO - 127.0.0.1 - - [11/Dec/2024 04:56:20] "POST /chat HTTP/1.1" 200 -
+2024-12-11 04:56:25,392 - INFO - Received message: 'bob' with session_id: '0e03bf40-0e6e-46a7-9ace-0f88af40ea95'
+2024-12-11 04:56:25,409 - INFO - Data successfully saved to JSON.
+2024-12-11 04:56:25,409 - INFO - Added interaction: session_id=0e03bf40-0e6e-46a7-9ace-0f88af40ea95, name=bob, state=MAIN_MENU
+2024-12-11 04:56:25,410 - INFO - 127.0.0.1 - - [11/Dec/2024 04:56:25] "POST /chat HTTP/1.1" 200 -
+2024-12-11 04:56:27,145 - INFO - Received message: 'Explore Careers and Majors' with session_id: '0e03bf40-0e6e-46a7-9ace-0f88af40ea95'
+2024-12-11 04:56:27,154 - INFO - Data successfully saved to JSON.
+2024-12-11 04:56:27,154 - INFO - Added interaction: session_id=0e03bf40-0e6e-46a7-9ace-0f88af40ea95, name=bob, state=ASK_CAREER
+2024-12-11 04:56:27,156 - INFO - 127.0.0.1 - - [11/Dec/2024 04:56:27] "POST /chat HTTP/1.1" 200 -
+2024-12-11 04:56:33,384 - INFO - Received message: 'Politics' with session_id: '0e03bf40-0e6e-46a7-9ace-0f88af40ea95'
+2024-12-11 04:56:33,804 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-11 04:56:33,810 - INFO - OpenAI response: Political Science, Public Policy, International Relations, Government
+2024-12-11 04:56:33,813 - INFO - Data successfully saved to JSON.
+2024-12-11 04:56:33,813 - INFO - Added interaction: session_id=0e03bf40-0e6e-46a7-9ace-0f88af40ea95, name=bob, state=SHOW_MAJORS
+2024-12-11 04:56:33,813 - INFO - 127.0.0.1 - - [11/Dec/2024 04:56:33] "POST /chat HTTP/1.1" 200 -
+2024-12-11 04:56:36,252 - INFO - Received message: 'Political Science' with session_id: '0e03bf40-0e6e-46a7-9ace-0f88af40ea95'
+2024-12-11 04:56:38,553 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-11 04:56:38,557 - INFO - Data successfully saved to JSON.
+2024-12-11 04:56:38,558 - INFO - Added interaction: session_id=0e03bf40-0e6e-46a7-9ace-0f88af40ea95, name=bob, state=MAIN_MENU
+2024-12-11 04:56:38,558 - INFO - 127.0.0.1 - - [11/Dec/2024 04:56:38] "POST /chat HTTP/1.1" 200 -
+2024-12-11 04:56:45,902 - INFO - Received message: 'Get Application Advice' with session_id: '0e03bf40-0e6e-46a7-9ace-0f88af40ea95'
+2024-12-11 04:56:45,914 - INFO - Data successfully saved to JSON.
+2024-12-11 04:56:45,914 - INFO - Added interaction: session_id=0e03bf40-0e6e-46a7-9ace-0f88af40ea95, name=bob, state=MAIN_MENU
+2024-12-11 04:56:45,915 - INFO - 127.0.0.1 - - [11/Dec/2024 04:56:45] "POST /chat HTTP/1.1" 200 -
+2024-12-11 05:10:56,467 - INFO -  * Detected change in 'C:\\WEB\\FYS1\\app.py', reloading
+2024-12-11 05:10:56,468 - INFO -  * Detected change in 'C:\\WEB\\FYS1\\app.py', reloading
+2024-12-11 05:10:57,615 - INFO -  * Restarting with watchdog (windowsapi)
+2024-12-11 05:10:58,881 - WARNING -  * Debugger is active!
+2024-12-11 05:10:58,884 - INFO -  * Debugger PIN: 881-337-769
+2024-12-11 05:11:03,711 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-11 05:11:03,712 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-11 05:11:03,721 - INFO -  * Restarting with watchdog (windowsapi)
+2024-12-11 05:11:05,146 - WARNING -  * Debugger is active!
+2024-12-11 05:11:05,149 - INFO -  * Debugger PIN: 881-337-769
+2024-12-11 05:11:05,970 - INFO - 127.0.0.1 - - [11/Dec/2024 05:11:05] "GET / HTTP/1.1" 200 -
+2024-12-11 05:11:06,258 - INFO - 127.0.0.1 - - [11/Dec/2024 05:11:06] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-11 05:11:06,354 - INFO - 127.0.0.1 - - [11/Dec/2024 05:11:06] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-12-11 05:11:06,437 - INFO - Received message: 'INIT' with session_id: '0e03bf40-0e6e-46a7-9ace-0f88af40ea95'
+2024-12-11 05:11:06,447 - INFO - Data successfully saved to JSON.
+2024-12-11 05:11:06,449 - INFO - Added interaction: session_id=eb1865d2-8821-4b04-a9a2-5ed5a41aeacf, name=, state=ASK_NAME
+2024-12-11 05:11:06,449 - INFO - 127.0.0.1 - - [11/Dec/2024 05:11:06] "POST /chat HTTP/1.1" 200 -
+2024-12-11 05:11:09,474 - INFO - Received message: 'bob' with session_id: 'eb1865d2-8821-4b04-a9a2-5ed5a41aeacf'
+2024-12-11 05:11:09,492 - INFO - Data successfully saved to JSON.
+2024-12-11 05:11:09,493 - INFO - Added interaction: session_id=eb1865d2-8821-4b04-a9a2-5ed5a41aeacf, name=bob, state=MAIN_MENU
+2024-12-11 05:11:09,494 - INFO - 127.0.0.1 - - [11/Dec/2024 05:11:09] "POST /chat HTTP/1.1" 200 -
+2024-12-11 05:11:11,111 - INFO - Received message: 'Explore Careers and Majors' with session_id: 'eb1865d2-8821-4b04-a9a2-5ed5a41aeacf'
+2024-12-11 05:11:11,121 - INFO - Data successfully saved to JSON.
+2024-12-11 05:11:11,122 - INFO - Added interaction: session_id=eb1865d2-8821-4b04-a9a2-5ed5a41aeacf, name=bob, state=ASK_CAREER
+2024-12-11 05:11:11,122 - INFO - 127.0.0.1 - - [11/Dec/2024 05:11:11] "POST /chat HTTP/1.1" 200 -
+2024-12-11 05:11:18,072 - INFO - Received message: 'MArketing' with session_id: 'eb1865d2-8821-4b04-a9a2-5ed5a41aeacf'
+2024-12-11 05:11:18,405 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-11 05:11:18,411 - INFO - OpenAI response: Marketing, Advertising, Public Relations, Business Administration
+2024-12-11 05:11:18,414 - INFO - Data successfully saved to JSON.
+2024-12-11 05:11:18,415 - INFO - Added interaction: session_id=eb1865d2-8821-4b04-a9a2-5ed5a41aeacf, name=bob, state=SHOW_MAJORS
+2024-12-11 05:11:18,417 - INFO - 127.0.0.1 - - [11/Dec/2024 05:11:18] "POST /chat HTTP/1.1" 200 -
+2024-12-11 05:11:21,408 - INFO - Received message: 'Advertising' with session_id: 'eb1865d2-8821-4b04-a9a2-5ed5a41aeacf'
+2024-12-11 05:11:27,120 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-11 05:11:27,125 - INFO - Data successfully saved to JSON.
+2024-12-11 05:11:27,125 - INFO - Added interaction: session_id=eb1865d2-8821-4b04-a9a2-5ed5a41aeacf, name=bob, state=MAIN_MENU
+2024-12-11 05:11:27,126 - INFO - 127.0.0.1 - - [11/Dec/2024 05:11:27] "POST /chat HTTP/1.1" 200 -
+2024-12-11 05:11:36,203 - INFO - Received message: 'Research Colleges' with session_id: 'eb1865d2-8821-4b04-a9a2-5ed5a41aeacf'
+2024-12-11 05:11:36,217 - INFO - Data successfully saved to JSON.
+2024-12-11 05:11:36,218 - INFO - Added interaction: session_id=eb1865d2-8821-4b04-a9a2-5ed5a41aeacf, name=bob, state=ASK_COLLEGE
+2024-12-11 05:11:36,218 - INFO - 127.0.0.1 - - [11/Dec/2024 05:11:36] "POST /chat HTTP/1.1" 200 -
+2024-12-11 05:11:40,294 - INFO - Received message: 'Guttman' with session_id: 'eb1865d2-8821-4b04-a9a2-5ed5a41aeacf'
+2024-12-11 05:11:40,302 - INFO - Data successfully saved to JSON.
+2024-12-11 05:11:40,302 - INFO - Added interaction: session_id=eb1865d2-8821-4b04-a9a2-5ed5a41aeacf, name=bob, state=MAIN_MENU
+2024-12-11 05:11:41,300 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-11 05:11:44,154 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-11 05:11:45,571 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-11 05:11:48,373 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-11 05:11:48,386 - INFO - 127.0.0.1 - - [11/Dec/2024 05:11:48] "POST /chat HTTP/1.1" 200 -
