@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FYS Career & College Assistant</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="chat-wrapper">
+        <header>
+            <h1>FYS Career Guidance</h1>
+            <p>Your personal assistant for exploring careers, majors, and colleges</p>
+        </header>
+
+        <main id="chat-container">
+            <div id="messages-container">
+                <div id="loading" style="display: none;">
+                    <p>Clancy is typing...</p>
+                </div>
+                <div id="messages" aria-live="polite"></div>
+            </div>
+
+            <div id="interaction-area">
+                <div id="main-menu-buttons" class="button-group" style="display:none;">
+                    <button class="choice-btn" data-choice="Explore Careers and Majors">
+                        Explore Careers & Majors
+                    </button>
+                    <button class="choice-btn" data-choice="Research Colleges">
+                        Research Colleges
+                    </button>
+                    <button class="choice-btn" data-choice="Get Application Advice">
+                        Get Application Advice
+                    </button>
+                </div>
+
+                <div id="majors-buttons" class="button-group" style="display:none;"></div>
+
+                <div id="input-container" style="display:none;">
+                    <input type="text" id="user-input" placeholder="">
+                    <button id="send-btn">Send</button>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p>First Year Success Program</p>
+        </footer>
+    </div>
+
+    <!-- DOMPurify for sanitizing HTML content -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dompurify/2.3.10/purify.min.js" integrity="sha512-Bu3HhE+ejpu9ZJHVmRPNW+DXoa9jLyxDqENtKgljFKIUzInQeMJE+k8LjG5pS9OJl26EbpzBfkA38xt0tBGFQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
